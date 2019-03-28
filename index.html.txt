@@ -1,0 +1,4200 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US" ng-app="UserApp">
+<head>
+    <title>Optimized - Track Air Pollution Metrics through a Unique Device in Smart City Thane</title>
+
+
+
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='INDEX,FOLLOW' name='robots'>
+
+
+
+        <link rel="canonical" href="http://www.prkruti.com/" />
+        <meta name="description" content="Track Air pollution in real time through our specialized Prkruti devices which measures pollutants information on a real time basis in smart city Surat. Which includes parameters like Temperature, Humidity, Dew point, Noise, Air Pressure.">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111822846-1"></script>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="animation.css">
+    <link href="font.css" rel="stylesheet" />
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="common.js"></script>
+    <script src="swiper.jquery.min.js"></script>
+    <script src="jquery.magnific-popup.js"></script>
+    <script src="imagesloaded.pkgd.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script src="jquery.vide.js"></script>
+    <script src="scrolla.jquery.min.js"></script>
+
+    <!-- Angularjs -->
+    <script src="new_angular.js"></script>
+    <script src="Angular-touch.js"></script>
+    <script src="Angular-Animate.js"></script>
+    <script src="ui-grid.js"></script>
+    <script src="angularjs-gauge.min.js"></script>
+
+    <script src="Angular-Animate.js"></script>
+    <link rel="stylesheet" href="angular-toastr.css">
+    <script src="angular-toastr.tpls.js"></script>
+
+    <script src="toastr.min.js"></script>
+    <link href="toastr.min.css" rel="stylesheet" />
+
+    <style>
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            border: 1px solid rgba(0,0,0,.15);
+            -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+            box-shadow: 0 6px 12px rgba(0,0,0,.175);
+            margin: 2px 0 0;
+            border-radius: 4px;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            padding: 5px 0;
+            z-index: 9999;
+        }
+
+            .dropdown-content a {
+                color: #333 !important;
+                padding: 12px 16px !important;
+                text-decoration: none;
+                display: block;
+                text-align: left !important;
+            }
+
+                .dropdown-content a:hover {
+                    color: #262626 !important;
+                    background-color: #f5f5f5;
+                }
+
+                    .dropdown-content a:hover:before {
+                        width: 0 !important;
+                    }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+            background: url(../images/hover-menu.png);
+            background-size: 100% auto;
+        }
+
+        .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+            background: url(../images/hover-menu.png);
+            background-size: 100% auto;
+        }
+
+        @media (max-width: 992px) {
+            .nav_responsive {
+                background: rgba(0, 0, 0, 0.7) !important;
+            }
+
+            .dropdown-content {
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar-toggle {
+                display: block !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar-header {
+                float: none !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar-collapse.collapse {
+                display: none !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .collapse.in {
+                display: block !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar-nav > li {
+                float: none !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .nav_menu {
+                text-align: center !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar-right {
+                float: none !important;
+            }
+        }
+        /*height*/
+        @media (max-width: 992px) {
+            .navbar-fixed-top .navbar-collapse {
+                max-height: none !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .container > .navbar-header {
+                margin-right: -15px !important;
+                margin-left: -15px !important;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .container > .navbar-collapse {
+                margin-left: -35px !important;
+                margin-right: -35px !important;
+            }
+        }
+        /*height*/
+        @media screen and (max-width: 992px) {
+            .navbar-nav {
+                margin: 7.5px -15px !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .menu_a {
+                padding: 25px 11px !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .menu_a {
+                /*padding: 25px 20px !important;*/
+                padding: 15px 15px !important;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .navbar-nav > li > a {
+                margin: 0 !important;
+                text-indent: 0 !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar > .container .navbar-brand {
+                margin-left: 0px !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .container_nav {
+                width: 100% !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .logo_img {
+                padding: 5px !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .logo_img {
+                top: 0;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar-collapse {
+                border-top: 1px solid transparent !important;
+                -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1) !important;
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1) !important;
+            }
+        }
+
+        @media (min-width: 993px){
+            .collapse {
+                display: block;
+            }
+        }
+        @media (min-width: 1200px){
+            .collapse {
+                display: block;
+            }
+        }
+    </style>
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope, $http) {
+  $http.get("satwik1").then(function (response) {
+      $scope.parametertype = response.data.Data[0].parameter_name;
+      $scope.parametervalue = response.data.Data[0].AvgValue;
+      $scope.parametertype1 = response.data.Data[1].parameter_name;
+      $scope.parametervalue1 = response.data.Data[1].AvgValue;
+      $scope.parametertype2 = response.data.Data[2].parameter_name;
+      $scope.parametervalue2 = response.data.Data[2].AvgValue;
+      $scope.parametertype3 = response.data.Data[3].parameter_name;
+      $scope.parametervalue3 = response.data.Data[3].AvgValue;
+      $scope.parametertype4 = response.data.Data[4].parameter_name;
+      $scope.parametervalue4 = response.data.Data[4].AvgValue;
+      $scope.parametertype5 = response.data.Data[5].parameter_name;
+      $scope.parametervalue5 = response.data.Data[5].AvgValue;
+      $scope.parametertype6 = response.data.Data[6].parameter_name;
+      $scope.parametervalue6 = response.data.Data[6].AvgValue;
+      $scope.parametertype7 = response.data.Data[7].parameter_name;
+      $scope.parametervalue7 = response.data.Data[7].AvgValue;
+      $scope.parametertype8 = response.data.Data[8].parameter_name;
+      $scope.parametervalue8 = response.data.Data[8].AvgValue;
+      $scope.parametertype9 = response.data.Data[9].parameter_name;
+      $scope.parametervalue9 = response.data.Data[9].AvgValue;
+	  });
+	});
+	</script>
+
+</head>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111822846-1');
+</script>
+<body class="index parallax" data-spy="scroll" data-target=".navbar" data-offset="30" ">
+
+    <div class="preloader text-center">
+        <div class="dots-loader"></div>
+    </div>
+
+    <section id="home" class="margin-bottom-5x">
+        <nav class="navbar navbar-fixed-top menu_nav nav_responsive">
+            <div class="container container_nav">
+                <div class="navbar-header">
+                    <a href="/" class="navbar-brand">
+                        <img src="images/logo.jpeg" class="logo logo_img" alt="Logo">
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="nav-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
+                <div id="main-navbar" class="collapse">
+                    <ul class="nav navbar-nav navbar-right main_nav_wrapper">
+                        <li>
+                            <a href="/" class="menu_a nav_menu">HOME</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="javascript:void(0)" class="menu_a nav_menu">PRODUCT</a>
+                                <div class="dropdown-content">
+                                    <a href="/products">Optimized</a>
+                                    <a href="/product/prkruti-lite">Optimized Lite</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/Casestudy" class="menu_a nav_menu">CASE STUDIES</a>
+                        </li>
+                        <li>
+                            <a href="/Blog" class="menu_a nav_menu">BLOGS</a>
+                        </li>
+                        <li>
+                            <a href="/about-us" class="menu_a nav_menu">ABOUT US</a>
+                        </li>
+
+                            <li>
+                                <a href="#" data-toggle="modal" class="menu_a nav_menu" data-target="#myModal" id="btn_login">LOGIN</a>
+                            </li>
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+
+<style type="text/css">
+    .amcharts-chart-div {
+        overflow: visible !important;
+    }
+
+    .hd_vdo_home {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-weight: bold;
+    }
+
+    @media all and (min-width: 266px) and (max-width: 767px) {
+        .hd_vdo_home {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+        .p_video_home {
+            font-size: 8px;
+        }
+    }
+
+    @media all and (min-width: 768px) and (max-width: 991px) {
+        .hd_vdo_home {
+            font-size: 36px;
+        }
+
+        .p_video_home {
+            font-size: 19px;
+        }
+    }
+
+    @media all and (min-width: 992px) and (max-width: 1199px) {
+        .hd_vdo_home {
+            font-size: 48px;
+        }
+
+        .p_video_home {
+            font-size: 25px;
+        }
+    }
+
+    @media all and (min-width: 1200px) and (max-width: 1500px) {
+        .hd_vdo_home {
+            font-size: 60px;
+        }
+
+        .p_video_home {
+            font-size: 31px;
+        }
+    }
+
+    .mim_max_p {
+        color: #fff;
+        padding: 6px 6px;
+        margin: 0;
+    }
+
+    .owl-carousel .owl-item {
+        text-align: center;
+    }
+    /*  for testing owl-carosol */
+
+    .suggestion_icon {
+        cursor: pointer;
+    }
+
+    .dotdotdot {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 16px;
+        max-height: 50px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .owl-pagination {
+        display: none;
+    }
+
+    .cust-right-icon {
+        font-size: 50px;
+        margin-right: -5px;
+        cursor: pointer;
+    }
+
+    .cust-left-icon {
+        font-size: 50px;
+        margin-left: -10px;
+        cursor: pointer;
+    }
+
+    .dropdown-menu > li > a {
+        cursor: pointer;
+    }
+
+    .amcharts-scrollbar-vertical /*enable zoom*/ {
+        display: none;
+    }
+
+    .amcharts-chart-div > a {
+        display: none !important;
+    }
+
+    .pie-value {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        height: 40px;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin-top: -20px;
+        line-height: 40px;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+    .pie-status {
+        display: block;
+        position: absolute;
+        font-size: 14px;
+        height: 40px;
+        top: 70%;
+        left: 0;
+        right: 0;
+        margin-top: -20px;
+        line-height: 40px;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+    .pie-text {
+        display: block;
+        position: absolute;
+        font-size: 14px;
+        height: 40px;
+        top: 30%;
+        left: 0;
+        right: 0;
+        margin-top: -20px;
+        line-height: 40px;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+    .amcharts-axis-label {
+        fill: #fff !important;
+    }
+
+    .item {
+        text-align: center; /*border-right: 2px solid #ffffff;*/
+    }
+
+    .owl-item {
+        padding-top: 15px; /*padding-bottom: 10px;*/
+        cursor: pointer;
+    }
+
+    .carousel-control {
+        background-image: none !important;
+        width: 4% !important;
+        opacity: 1 !important;
+        /*height: 175px;*/
+    }
+
+    .canvas_bg {
+        background-image: url("images/gagebg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .infowindow_bg {
+        background-image: url("images/infowindowbg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #SearchforGoogleMap {
+        background-color: #fff;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 300; /*margin-left: 12px;*/ /*padding: 0 11px 0 25px;*/
+        text-overflow: ellipsis;
+        width: 400px;
+        font-style: italic;
+    }
+
+    @media (min-width:768px) and (max-width:991px) {
+        #SearchforGoogleMap {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 767px) {
+        #SearchforGoogleMap {
+            width: 200px;
+        }
+
+        .map_txt {
+            margin-top: 0px;
+            text-align: start;
+            text-align: center;
+        }
+
+        .frm_gp {
+            text-align: center;
+        }
+    }
+
+    .gm-style-iw {
+        width: 269px !important;
+        top: 18px !important; /*left: 0px !important;*/
+        background-color: rgba(0, 0, 0, 0.3); /*box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+        border: 1px solid rgba(72, 181, 233, 0.6);*/
+        border-radius: 10px;
+    }
+
+    /*#iw-container {
+        margin-bottom: 10px;
+    }*/
+
+    #iw-container .iw-title {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        padding: 10px;
+        background-color: #48b5e9;
+        color: white;
+        margin: 0;
+        border-radius: 2px 2px 0 0;
+    }
+
+    #iw-container .iw-content {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        margin-right: 1px;
+        padding: 15px;
+        max-height: 140px; /*overflow-y: auto;
+            overflow-x: hidden;*/
+    }
+
+    .iw-content img {
+        float: right;
+        margin: 0 5px 5px 10px;
+    }
+
+    .iw-subTitle {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 5px 0;
+    }
+
+    .iw-bottom-gradient {
+        position: absolute;
+        width: 326px;
+        height: 25px;
+        bottom: 10px;
+        right: 18px;
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+        background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    }
+
+    .infowindow_text {
+        font-size: 12px;
+    }
+
+    .infowindow_value {
+        font-size: 24px;
+    }
+
+    .infowindow_status {
+        font-size: 12px;
+    }
+
+    .data_loader_img {
+        display: block;
+        width: 100px;
+        position: ABSOLUTE;
+        left: 24%;
+        top: 15%;
+    }
+
+    .collapse_gage {
+        display: none;
+    }
+</style>
+<style type="text/css">
+    /*.modal-dialog {
+        width: 600px;
+    }*/
+
+    #ProductModal.modal.fade .modal-dialog {
+        transition: -webkit-transform .5s ease-out;
+        transition: transform .5s ease-out;
+        transition: transform .5s ease-out,-webkit-transform .5s ease-out;
+        -webkit-transform: translate(-50%, -50%) scale(0);
+        transform: translate(-50%, -50%) scale(0);
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    #ProductModal.modal.in .modal-dialog {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    #ProductModal .close {
+        position: absolute;
+        right: -20px;
+        top: -33px;
+        background: #209c64;
+        color: #fff;
+        opacity: 1;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        font-size: 28px;
+    }
+
+    #ProductModal .modal-body {
+        padding: 0;
+    }
+
+    #ProductModal .modal-content {
+        border-radius: 0;
+        border: 0;
+    }
+
+    .home-modal-content {
+        padding: 50% 20px 50% 0;
+        text-align: center;
+    }
+
+        .home-modal-content p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #777;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+    #ProductModal .modal-body img {
+        width: 100%;
+    }
+
+    .home-modal-content a {
+        display: inline-block;
+    }
+</style>
+<style>
+    #draggable {
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+    }
+
+    .autosuggestCity, .ui-autocomplete {
+        z-index: 99999999;
+    }
+
+    #map {
+        height: 100%;
+    }
+</style>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child() {
+  background-color: #dddddd;
+}
+</style>
+<div ng-controller="ctrl">
+    <div id="hero-video" class="video-background auto-scroll">
+      <div class="video-background1">
+      </div>
+      <div style="position: absolute; top: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.35);"></div>
+      <div class="slide">
+          <div class="slide-content slide_text">
+              <h1 class="hd_vdo_home">The Air quality was invisible till now,</h1>
+              <p class="p_video_home">
+                  We are making it visible, with our ultra low powered, Connected Devices.<br />
+                  Know the air, your loved ones are breathing!!!<br />
+                  With <b>OPTIMIZED</b>
+              </p>
+          </div>
+          <a href="#MapContent" id="mouse" class="smooth-scroll icon_down">
+              <img src="images/icnScroll.png" class="img_ani">
+          </a>
+      </div>
+
+    </div>
+
+    <div class="container-fluid map_se" id="">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                <div class="col-md-2 col-sm-3 col-lg-4 col-xs-12 pdz">
+                    <h4 class="map_txt">Where am i</h4>
+                </div>
+                <div class="col-md-6 col-sm-4 col-lg-5 col-xs-12 form-group frm_gp">
+                    <div class="icon-addon addon-sm">
+                        <input type="text" placeholder="enter your location" class="form-control search_box" id="SearchforGoogleMap" style="position: initial;">
+                        <label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-5 col-lg-3 col-xs-12 aqi_label_div pdz">
+                    <label class="radio-inline aqi_label">
+                        <input type="radio" name="optradio" id="RDBAvgAQI" checked="checked">Average AQI
+                    </label>
+                    <label class="radio-inline aqi_label">
+                        <input type="radio" name="optradio" id="RDBCurrntAQI">Real Time AQI
+                    </label>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pdz" id="MapContent">
+        <div id="map" class="google_map" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="popup_img popup_main_div more_info_popup" id="More_Information_AQI">
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 fa_cancel_popup">
+            <a href="javascript:void(0)" id="deleteInfoAQI" class="fa_cancel_popup_a"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+            <h4 class="popup_h4_1"><b>Prominent Pollutant : <span class="popup_span" id="Prom_Pollut">PM 2.02</span></b></h4>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 locbx_gag2" id="Finl_AQI_For_Box">
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 popup_div1" id="parm_Info_Temp_Hum">
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 popup_div4">
+            <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1 map_popup2">
+            </div>
+            <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 map_popup2">
+                <img src="images/icnOutdoorActivity.png" id="imageHome" class="suggestion_icon imgg">
+            </div>
+            <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 map_popup2">
+                <img src="images/icnHealthSensetive.png" id="img_mou" class="suggestion_icon">
+            </div>
+            <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 map_popup2">
+                <img src="images/icnChildern.png" id="img_mouse" class="suggestion_icon">
+            </div>
+            <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 map_popup2">
+                <img src="images/icnOutdoor.png" id="img_teddy" class="suggestion_icon">
+            </div>
+            <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 map_popup2">
+                <img src="images/icnWearMask.png " id="img_bike" class="suggestion_icon">
+            </div>
+            <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1 map_popup2">
+            </div>
+
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+            <h4 class="popup_h4_2"><b><span id="SuggesTextTitle"></span></b></h4>
+            <p class="popup_p" id="parameter_suggestion">
+            </p>
+        </div>
+    </div>
+    <div class="nokit_sel_bg_main">
+        <div class="progress" id="progress_bar" style="display: none;">
+            <div class="indeterminate"></div>
+        </div>
+        <div class="nokit_sel_bg1" id="No_kit_div">
+            <div class="container">
+            	<button id="btnshow">ForMoreInfo</button>
+                <div class="row">
+                  <div class="table" id="htmltable"ng-app="myApp" ng-controller="myCtrl">
+						<h2>AIR QUALITY</h2>
+
+						<table>
+							  <tr>
+							    <th>PARAMETER TYPE</th>
+							    <th>CURRENT VALUE</th>
+							    <th>MAXIMUM VALUE</th>
+							  </tr>
+							  <tr>
+							    <td><input id="type" value=""></td>
+							    <td><input id="value" value=""></td>
+							    <td>60c</td>
+							  </tr>
+							  <tr>
+							    <td><input id="type1" value=""></td>
+							    <td><input id="value1" value=""></td>
+							    <td>100</td>
+							  </tr>
+							  <tr>
+							    <td><input id="type2" value=""></td>
+							    <td><input id="value2" value=""></td>
+							    <td>30</td>
+							  </tr>
+							  <tr>
+							    <td><input id="type3" value=""></td>
+							    <td><input id="value3" value=""></td>
+							    <td></td>
+							  </tr>
+							  <tr>
+							    <td><input id="type4" value=""></td>
+							    <td><input id="value4" value=""></td>
+							    <td>130</td>
+							  </tr>
+							  <tr>
+							    <td><input id="type5" value=""></td>
+							    <td><input id="value5" value=""></td>
+							    <td></td>
+							  </tr>
+							  <tr>
+							   <td><input id="type6" value=""></td>
+							    <td><input id="value6" value=""></td>
+							    <td>500</td>
+							  </tr>
+							  <tr>
+							    <td><input id="type7" value=""></td>
+							    <td><input id="value7" value=""></td>
+							    <td></td>
+							  </tr>
+							  <tr>
+							    <td><input id="type8" value=""></td>
+							    <td><input id="value8" value=""></td>
+							    <td>4.5</td>
+							  </tr>
+							  <tr>
+							    <td><input id="type9" value=""></td>
+							    <td><input id="value9" value=""></td>
+							    <td>700</td>
+							  </tr>
+							</table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bar_last_dr1" id="date_time_of_parm" style="display: none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 bar_last_dr2">
+                        <div class="col-md-4 col-sm-4 col-lg-5 col-xs-12 bar_span1">
+                            <div id="div_battery">
+
+                                <i class="fa fa-map-marker fa_battery" aria-hidden="true"></i>
+                                <span>Location :&nbsp</span><span class="bar_span2" id="spn_battery"></span>
+                            </div>
+
+                            <div id="div_location_of_cpcb">
+                                <i class="fa fa-map-marker fa_battery" aria-hidden="true"></i>
+                                <span>Location :&nbsp</span><span class="bar_span2" id="spn_Lcation"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-8 col-lg-5 col-xs-12">
+                            <p class="bar_p">LAST DATA RECEIVED:&nbsp<span id="LstUpdateTime"></span></p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-8 col-lg-2 col-xs-12 text-right">
+                            <a id="SpanSource" href="" target="_blank">
+                                <p class="bar_p">SOURCE :&nbsp<span id="spnSourceName"></span></p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid slider_bg" id="parm_slider" style="display: none;">
+            <div class='row'>
+                <div class="col-md-12" id="parm_slider_div">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid nokit_bg" id="parm_infor_div" style="display: none;">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-lg-4 col-xs-12">
+                        <div class="col-md-4 col-sm-12 col-lg-3 col-xs-12 parameter_pd pdz">
+                            <img id="parm_image" style="width: 60px;" src="images/icnCloud.png">
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-lg-5 col-xs-12 pdz">
+                            <div class="dropdown">
+                                <button class="btn-primary dropdown-toggle nokit_btn1" type="button" data-toggle="dropdown" id="btn_ddlParm">Temperature&nbsp;<span class="caret"></span></button>
+                                <ul class="dropdown-menu" id="ddlParm">
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12 pdz" id="MinMaxDiv" style="display: none">
+                            <p class="mim_max_p"><span>Min&nbsp;:&nbsp;</span><span id="spnMinvalue"></span></p>
+                            <p class="mim_max_p"><span>Max&nbsp;:&nbsp;</span><span id="spnMaxvalue"></span></p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 pdz">
+                            <h1 class="nokit_h1" id="parm_value"><b></b>&nbsp;<span style="font-size: 20px;"></span></h1>
+                            <p class="nokit_p1" id="parm_title">Temperature</p>
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_Temperature">Air temperature is the measure of how cold or hot the air is. It is also known as surface temperature in meteorology.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_temp" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Air temperature is the measure of how cold or hot the air is. It is also known as surface temperature in meteorology.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_Humidity" style="display: none;">Humidity is the amount of water vapour that is present in the air at any given point of time. It can be both in a relative or an absolute measure.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_hum" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Humidity is the amount of water vapour that is present in the air at any given point of time. It can be both in a relative or an absolute measure." style="display: none">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_DewPoint" style="display: none;">When the air is cooled to the point of saturation of water vapour, that point is known as the dew point.  A Hygrometer is used to measure the dew point over wide ranges of temperatures.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_dewp" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="When the air is cooled to the point of saturation of water vapour, that point is known as the dew point.  A Hygrometer is used to measure the dew point over wide ranges of temperatures." style="display: none">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_CO2" style="display: none;">Carbon Dioxide is a colourless and odourless gas which is 50% denser than dry air. It is considered both a greenhouse gas as well as a gas which is needed for industrial uses</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_co2" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Carbon Dioxide is a colourless and odourless gas which is 50% denser than dry air. It is considered both a greenhouse gas as well as a gas which is needed for industrial uses">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_AirPres" style="display: none;">Air pressure, atmospheric pressure, or barometric pressure, is the pressure exerted over a surface by the weight of an air mass (and its molecules) above it.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_AirPres" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Air pressure, atmospheric pressure, or barometric pressure, is the pressure exerted over a surface by the weight of an air mass (and its molecules) above it." style="display: none">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_CO" style="display: none;">Carbon Monoxide is an odourless, colourless and tasteless gas which is slightly denser than air. It is toxic to humans and certain animals, when being exposed to it in certain concentrations.</p>
+                                <a href="javascript:void(0)" class="" id="parm_co" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Carbon Monoxide is an odourless, colourless and tasteless gas which is slightly denser than air. It is toxic to humans and certain animals, when being exposed to it in certain concentrations.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_Noise" style="display: none;">When one is exposed to unwanted noises on a regular basis, or when a place records unwanted noises on a continuous basis, that results in noise pollution.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_noise" style="display: none;" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="When one is exposed to unwanted noises on a regular basis, or when a place records unwanted noises on a continuous basis, that results in noise pollution.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_NO2" style="display: none;">Nitrogen Dioxide(NO2) is a gas that forms when nitrogen oxides react with air. It is an intermediate in the industrial synthesis of nitric acid, of which millions of tons are produced every year. NO2 is reddish brown in colour with a pungent, sharp and biting odour.</p>
+                                <a href="javascript:void(0)" class="" id="parm_no2" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Nitrogen Dioxide(NO2) is a gas that forms when nitrogen oxides react with air. It is an intermediate in the industrial synthesis of nitric acid, of which millions of tons are produced every year. NO2 is reddish brown in colour with a pungent, sharp and biting odour.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_CH4" style="display: none;">It is a naturally occurring hydrocarbon which is used to produce electricity, for cooking besides some industrial uses. It is a colourless and odourless fossil fuel.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_ch4" style="display: none;" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="It is a naturally occurring hydrocarbon which is used to produce electricity, for cooking besides some industrial uses. It is a colourless and odourless fossil fuel.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_NH3" style="display: none;">Ammonia is a compound of Nitrogen and Hydrogen. It is a colourless gas which has many industrial and domestic uses. If inhaled in large quantities, it can be harmful for humans.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_nh3" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Ammonia is a compound of Nitrogen and Hydrogen. It is a colourless gas which has many industrial and domestic uses. If inhaled in large quantities, it can be harmful for humans.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_PM2_5" style="display: none;">These are particles which are microscopic solid or liquid particles which are suspended in the atmosphere.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_pm25" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="These are particles which are microscopic solid or liquid particles which are suspended in the atmosphere.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_PM10" style="display: none;">PM 10 are particulate matter smaller than 10 microns. Theoretically, PM2.5 particles also come under this group, but we will consider Particulate matter as a whole when we discuss PM 10. However, gas based pollutants are not considered in the PM10 category.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_pm10" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="PM 10 are particulate matter smaller than 10 microns. Theoretically, PM2.5 particles also come under this group, but we will consider Particulate matter as a whole when we discuss PM 10. However, gas based pollutants are not considered in the PM10 category.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_PM1_0" style="display: none;">PM1.0 are particulate matter smaller than 10 microns. Theoretically, PM1.0 particles also come under this group, but we will consider Particulate matter as a whole when we discuss PM1.0. However, gas based pollutants are not considered in the PM1.0 category.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_pm1" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="PM1.0 are particulate matter smaller than 10 microns. Theoretically, PM1.0 particles also come under this group, but we will consider Particulate matter as a whole when we discuss PM1.0. However, gas based pollutants are not considered in the PM1.0 category.">MORE INFO</a>
+                            </div>
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_battery_voltage" style="display: none;">Prkruti is powerd by compact  7800mAh/ 3.7V Li-ion battery which can hold the charge up to 5 days of continious working</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_battery_voltage" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Prkruti is powerd by compact  7800mAh/ 3.7V Li-ion battery which can hold the charge up to 5 days of continious working">MORE INFO</a>
+                            </div>
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_Solar_current" style="display: none;">prkruti is 100% solar powerd, it's battrey can be charge from compact sized solar cell</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_Solar_current" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="prkruti is 100% solar powerd, it's battrey can be charge from compact sized solar cell">MORE INFO</a>
+                            </div>
+
+
+
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_o3" style="display: none;">Ozone is a strong oxidant, and it can react with a wide range of cellular components and biological materials. Ozone can aggravate bronchitis, heart disease, emphysema, asthma and reduce lung capacity.</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_o3" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Ozone is a strong oxidant, and it can react with a wide range of cellular components and biological materials. Ozone can aggravate bronchitis, heart disease, emphysema, asthma and reduce lung capacity.">MORE INFO</a>
+                            </div>
+                            <div>
+                                <p class="nokit_p2 dotdotdot" id="parm_desc_so2" style="display: none;">Sulfur dioxide is a gas. It is invisible and has a nasty, sharp smell. It reacts easily with other substances to form harmful compounds, such as sulfuric acid, sulfurous acid and sulfate particles</p>
+                                <a href="javascript:void(0)" class="btn_more_info" id="parm_So2" style="display: none" data-placement="bottom" data-toggle="popover" title="" data-trigger="focus" data-content="Sulfur dioxide is a gas. It is invisible and has a nasty, sharp smell. It reacts easily with other substances to form harmful compounds, such as sulfuric acid, sulfurous acid and sulfate particles">MORE INFO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-8 col-xs-12">
+                        <div class="col-md-3 col-sm-12 col-lg-4 col-xs-12 pdz lastdata_align">
+                            <div class="dropdown">
+                                <button class="btn-primary dropdown-toggle nokit_btn2 lastdata_pd" type="button" data-toggle="dropdown" id="btnDDlChartType">
+                                    LAST DATA RECEIVED &nbsp;<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu lastdata_dropdown" id="DDLChartType">
+                                    <li><a class="humidity_a">Hour</a></li>
+                                    <li><a class="humidity_a">Day</a></li>
+                                    <li><a class="humidity_a">Month</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-lg-6 col-xs-12 pdz datepicker_align">
+                            <form id="form" name="form" class="form-inline">
+                                <label for="startDate" class="nokit_lbl">From : </label>
+                                &nbsp;
+                            <input id="startDate" name="startDate" type="text" class="form-control frm_dp date_picker" />
+                                &nbsp;&nbsp;&nbsp;
+                            <label for="endDate" class="nokit_lbl">To : </label>
+                                &nbsp;
+                            <input id="endDate" name="endDate" type="text" class="form-control frm_dp date_picker" />
+                            </form>
+                        </div>
+                        <div class="col-md-2 col-sm-12 col-lg-2 col-xs-12 pdz form_errow">
+                            <ul class="pagination nokit_fafa_ul">
+                                <li class="nokit_li"><a class="nokit_a1" id="previous_date"><i class="fa fa-angle-left nokit_fafa" aria-hidden="true"></i></a></li>
+                            </ul>
+                            <ul class="pagination nokit_fafa_ul" id="ul_next_date">
+                                <li class="nokit_li"><a class="nokit_a1 disabled" id="next_date"><i class="fa fa-angle-right nokit_fafa" aria-hidden="true"></i></a></li>
+                            </ul>
+                                <ul class="pagination nokit_fafa_ul" id="ul_next_date" style="visibility: hidden">
+                                    <li class="nokit_li" id="Export_CSV"><a class="nokit_a1 download_csv" id=""><i class="fa fa-download nokit_fafa" aria-hidden="true"></i></a></li>
+                                </ul>
+
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                            <div id="chartdiv"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pdz">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/slider1.png" alt="airquality" class="carousel_img">
+                    </div>
+                    <div class="item">
+                        <img src="images/slider2.png" alt="airquality" class="carousel_img">
+                    </div>
+                    <div class="item">
+                        <img src="images/slider3.png" alt="airquality" class="carousel_img">
+                    </div>
+                    <div class="item">
+                        <img src="images/slider4.png" alt="airquality" class="carousel_img">
+                    </div>
+                    <div class="item">
+                        <img src="images/slider5.png" alt="airquality" class="carousel_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container aqi_bg">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 iw_columns">
+                    <h3 class="aqi_h3 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>WHAT IS AQI ?</b></h3>
+                    <div id="MICROCONTROLLERS-PROCESSORS-AUTO" class="product-circle">
+                        <canvas id="canvas" class="animate canvas_circle" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></canvas>
+                        <div id="features-0" class="circle-products mousemove canvas_div">
+                            The Air Quality Index is a measurement guideline that helps to understand the quality of air. It contains weighted values of individual pollutants and gives a single set of numbers which we can then judge as to how the quality of the air around us
+                        </div>
+                        <div class="product-container">
+                            <div id="arm" class="circle-products product-offerings">
+                                <button class="feature-toggle" type="button" data-target="#features-6" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+                                <h3 class="animate"><a href="javascipt:void(0)" class="a12 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Severe</b><br>
+                                    <b>401 - 500</b><br>
+                                </a></h3>
+                            </div>
+                            <div id="features-6" class="circle-products mousemove collapse_gage">
+                                <p>In this case, the air quality is so <b>content</b>ad that it may cause respiratory illnesses on healthy people and serious health problems on people with lung/heart diseases. Even light physical activity can cause health impacts on people.</p>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <div id="s12-magniv" class="circle-products product-offerings">
+                                <button class="feature-toggle" type="button" data-target="#features-1" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+                                <h3 class="animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="javascipt:void(0)" class="a12"><b>Good</b><br>
+                                    <b>0 - 50</b><br>
+                                </a></h3>
+                            </div>
+                            <div id="features-1" class="circle-products mousemove collapse_gage">
+                                <p>The air quality is considered ambient and that there is minimal impact to people due to it</p>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <div id="ultra-reliable-mcu" class="circle-products product-offerings">
+                                <button class="feature-toggle" type="button" data-target="#features-2" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+                                <h3 class="animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="" class="a12"><b>Satisfactory</b><br>
+                                    <b>51 - 100</b><br>
+                                </a></h3>
+                            </div>
+                            <div id="features-2" class="circle-products mousemove collapse_gage">
+                                <p>The air quality is generally breathable but some sensitive people may have minor breathing discomfort</p>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <div id="s12-s12x" class="circle-products product-offerings">
+                                <button class="feature-toggle" type="button" data-target="#features-3" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+                                <h3 class="animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="" class="a12"><b>Moderate</b><br>
+                                    <b>101 - 200</b><br>
+                                </a></h3>
+                            </div>
+                            <div id="features-3" class="circle-products mousemove collapse_gage">
+                                <p>
+                                    The air quality may cause discomfort to people with heart disease,
+                                     lung disease, children and older adults.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <div id="s08-mcu" class="circle-products product-offerings">
+                                <button class="feature-toggle" type="button" data-target="#features-4" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+                                <h3 class="animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="" class="a12"><b>Poor</b><br>
+                                    <b>201 - 300</b><br>
+                                </a></h3>
+                            </div>
+                            <div id="features-4" class="circle-products mousemove collapse_gage">
+                                <p>The air quality may cause breathing discomfort to people with heart disease and to regular people on prolonged exposure.</p>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <div id="power-arch" class="circle-products product-offerings">
+                                <button class="feature-toggle" type="button" data-target="#features-5" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+                                <h3 class="animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="" class="a12"><b>Very Poor</b><br>
+                                    <b>301 - 400</b><br>
+                                </a></h3>
+                            </div>
+                            <div id="features-5" class="circle-products mousemove collapse_gage">
+                                <p>
+                                    The air quality may cause respiratory illness to people with prolonged exposure.
+                                     People with lung and heart diseases may have to suffer more due to this exposure
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="getapp_bg1">
+            <div class="getapp_bg2">
+                <div class="container-fluid">
+                    <div class="row getapp_row">
+                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                            <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12 text_center">
+                                <h1 class="getapp_h1 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>GET APP</b></h1>
+                                <p class="getapp_p animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>CHOOSE YOUR NATIVE PLATFORM AND GET STARTED!</b></p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-lg-2 col-xs-6">
+
+                                <a href="https://itunes.apple.com/in/app/prkruti/id1411272804?mt=8" target="_blank">
+                                    <img src="images/icnIos.png" class="img-responsive animate image_center_icn" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-lg-2 col-xs-6">
+                                <a href="https://play.google.com/store/apps/details?id=com.dnk.prakruti&hl=en" target="_blank">
+                                    <img src="images/icnAnd.png" class="img-responsive animate image_center_icn" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 pdz">
+                            <div class="col-md-5 col-sm-5 col-lg-5 col-xs-12 getapp_sldr_div get_app_bg img-responsive pdz">
+                                <img src="images/app1.png" class="get_app_img img-responsive" id="img1">
+                                <img src="images/app2.png" class="get_app_img img-responsive" id="img2" style="display: none;">
+                                <img src="images/app3.png" class="get_app_img img-responsive" id="img3" style="display: none;">
+                                <img src="images/app4.png" class="get_app_img img-responsive" id="img4" style="display: none;">
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-lg-7 col-xs-12 getapp_sldr2">
+                                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-lg-2 col-xs-12 pdz">
+                                        <a href="" id="icnAir">
+                                            <img src="images/icnAir.png" class="animate image_center" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-lg-10 col-xs-12 text_center">
+                                        <h4 class="getapp_h4 getapp_sldr2_txt animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Real Time Air Quality Tracking</b></h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 getapp_sldr3">
+                                    <div class="col-md-2 col-sm-2 col-lg-2 col-xs-12 pdz">
+                                        <a href="" id="icnLoc">
+                                            <img src="images/icnLoc.png" class="animate image_center" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-lg-10 col-xs-12 text_center">
+                                        <h4 class="getapp_h4 getapp_sldr2_txt animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Location Based Notification</b></h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 getapp_sldr3">
+                                    <div class="col-md-2 col-sm-2 col-lg-2 col-xs-12 pdz">
+                                        <a href="" id="icnData">
+                                            <img src="images/icnData.png" class="animate image_center" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-lg-10 col-xs-12 text_center">
+                                        <h4 class="getapp_h4 getapp_sldr2_txt animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Data Analysis</b></h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 getapp_sldr3">
+                                    <div class="col-md-2 col-sm-2 col-lg-2 col-xs-12 pdz">
+                                        <a href="" id="icnHealth">
+                                            <img src="images/icnHealth.png" class="animate image_center" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-lg-10 col-xs-12 text_center">
+                                        <h4 class="getapp_h4 getapp_sldr2_txt animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Health suggestion</b></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Set cookies model   -->
+    <div class="modal fade" id="CityModel" role="dialog" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body" style="padding-bottom: 50px;">
+                    <input autocomplete="on" class="typeahead  form-control autosuggestCity Requiredd col-lg-6" id="txtCityId" name="CityName" placeholder="Enter Your City" type="text" value="" />
+                    <input data-val="true" data-val-number="The field City_ID must be a number." data-val-required="The City_ID field is required." id="hdncityid" name="City_ID" type="hidden" value="" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="ProductModal" class="modal fade" role="dialog" data-backdrop="static">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-8">
+                            <img src="images/logo.png" class="img-responsive" />
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="home-modal-content">
+                                <p>
+                                    The World’s smallest indoor air quality monitor
+                                </p>
+                                <a href="/product/prkruti-lite" class="nokit_sel_btn center-block">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="jquery-ui.css">
+<link href="bootstrap-datepicker.css" rel="stylesheet" />
+<link rel="stylesheet" href="export.css">
+
+<script src="modernizr-2.6.2.js"></script>
+<script src="jquery.cookie-1.4.1.min.js"></script>
+
+<script src="jquery.blockUI.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="autocomplete.js"></script>
+<script src="bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="clock.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+
+<!-- slide -->
+<link rel="stylesheet" href="owl.carousel.css">
+<link rel="stylesheet" href="owl.theme.css">
+<script src="owl.carousel.js"></script>
+
+<!-- Gauges chart -->
+<script src="gauge.min.js"></script>
+<script src="prettify.js"></script>
+<script src="moment.min.js"></script>
+<!-- chart -->
+<script src="amcharts.js"></script>
+<script src="serial.js"></script>
+<script src="export.min.js"></script>
+<script src="light.js"></script>
+
+<script type="text/javascript">
+    var averageDataByCity = "";
+    var Symbol = '';
+    var locationObj = {
+        latitude: 19.19406,
+        longitude:72.96058,
+        cityName: '',
+        cityId: 0,
+        countryName: '',
+        IndiaFag: true
+    }
+    var latitude = 0;
+    var longitude = 0;
+    var detectedCityName = "";
+    var detectedCountryName = "";
+    var LatestDataByCity = "";
+
+    var DevicesID = "";
+    var ParameterType = "Temperature"
+
+    var ParameterTypeOfOpenAQ = ""
+    var IsSourceType = 'False'
+
+    var chart = "";
+    var owlCarousel = "";
+
+    var AQISuggestionText = "";
+
+    var DataType = "Average"
+
+    $(document).ready(function () {
+        $("#deleteInfoAQI").click(function () {
+            $("#More_Information_AQI").hide();
+        });
+
+        $('#myCarousel').carousel({
+            interval: 3000
+        });
+
+        setTimeout(function () {
+            $('#ProductModal').modal({ show: true });
+        }, 200);
+
+        $("#RDBAvgAQI").click(function () {
+            DataType = "Average";
+            initAutocomplete(locationObj.latitude, locationObj.longitude, locationObj.IndiaFag);
+        });
+
+        $("#RDBCurrntAQI").click(function () {
+            DataType = "Current";
+            $("#MinMaxDiv").hide();
+            initAutocomplete(locationObj.latitude, locationObj.longitude, locationObj.IndiaFag);
+        });
+
+        $('.smooth-scroll').on('click', function (e) {
+            e.preventDefault();
+            var spaceOffset = 140;
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top - spaceOffset
+            }, 800);
+        });
+        $('[data-toggle="popover"]').popover();
+
+        $("#DDLChartType li a").click(function () {
+            var ChartType = $(this).text();
+            $("#btnDDlChartType").html(ChartType + '<span class="caret"></span>');
+            var sd = ""
+            var ed = "";
+            if (ChartType == "Hour") {
+                sd = moment();
+                var SDdatetime = moment().format("DD/MM/YYYY HH:mm:ss");
+                var EDdatetime = moment().subtract(1, 'h').format("DD/MM/YYYY HH:mm:ss");
+                $('#startDate').datepicker('setDate', sd.format("DD/MM/YYYY"));
+                //$('#endDate').datepicker('setDate', sd.format("DD/MM/YYYY"));
+                if (IsSourceType == 'True') {
+                    SetChartOfOpenAQ($("#startDate").val(), $("#endDate").val(), DevicesID, ParameterTypeOfOpenAQ);
+                }
+                else {
+                    //SetChart($("#startDate").val(), $("#endDate").val(), DevicesID, ParameterType);
+                    SetChart(SDdatetime, EDdatetime, DevicesID, ParameterType);
+                }
+            }
+            else if (ChartType == "Day") {
+                sd = moment();//.subtract(1, 'd');
+                ed = moment();
+                $('#startDate').datepicker('setDate', sd.format("DD/MM/YYYY"));
+                $('#endDate').datepicker('setDate', ed.format("DD/MM/YYYY"));
+                if (IsSourceType == 'True') {
+                    SetChartOfOpenAQ($("#startDate").val(), $("#endDate").val(), DevicesID, ParameterTypeOfOpenAQ);
+                }
+                else {
+                    SetChart($("#startDate").val() + " 00:00:00", $("#endDate").val() + " 00:00:00", DevicesID, ParameterType);
+                }
+            }
+            else if (ChartType == "Month") {
+                sd = moment().subtract("month", 1);
+                ed = moment();
+                $('#startDate').datepicker('setDate', sd.format("DD/MM/YYYY"));
+                $('#endDate').datepicker('setDate', ed.format("DD/MM/YYYY"));
+                if (IsSourceType == 'True') {
+                    SetChartOfOpenAQ($("#startDate").val(), $("#endDate").val(), DevicesID, ParameterTypeOfOpenAQ);
+                }
+                else {
+                    SetChart($("#startDate").val() + " 00:00:00", $("#endDate").val() + " 00:00:00", DevicesID, ParameterType);
+                }
+            }
+            else {
+                sd = moment().subtract(7, 'd');
+                ed = moment();
+                $('#startDate').datepicker('setDate', sd.format("DD/MM/YYYY"));
+                $('#endDate').datepicker('setDate', ed.format("DD/MM/YYYY"));
+                if (IsSourceType == 'True') {
+                    SetChartOfOpenAQ($("#startDate").val(), $("#endDate").val(), DevicesID, ParameterTypeOfOpenAQ);
+                }
+                else {
+                    SetChart($("#startDate").val() + " 00:00:00", $("#endDate").val() + " 00:00:00", DevicesID, ParameterType);
+                }
+            }
+        });
+
+        $(document).on("click", "#ddlParm li a", function () {
+            var MinValue = $(this).attr('minValue');
+            var MaxValue = $(this).attr('maxValue');
+            if (MinValue == "0" && MaxValue == "0") {
+                $("#MinMaxDiv").hide();
+            }
+            else {
+                $("#MinMaxDiv").show();
+                $("#spnMinvalue").text(MinValue);
+                $("#spnMaxvalue").text(MaxValue);
+            }
+
+            var parm_text = $(this).text();
+            var parm_value = $(this).data("parm");
+            $("#btn_ddlParm").html(parm_text + '<span class="caret"></span>');
+            $("#parm_title").text(parm_text);
+            $("#parm_value").html('<b>' + parm_value + '</b>&nbsp;<span style="font-size:20px;">' + SetChartSymbol(parm_text) + '</span>');
+            ManageParameterDescrtion(parm_text, parm_value)
+            ParameterType = parm_text;
+            ParameterTypeOfOpenAQ = parm_text == 'PM2.5' ? "pm25" : parm_text == 'PM10' ? "pm10" : parm_text;
+            if (IsSourceType == 'True') {
+                SetChartOfOpenAQ($("#startDate").val(), $("#endDate").val(), DevicesID, ParameterTypeOfOpenAQ);
+            }
+            else {
+                var SDdatetime = moment().format("DD/MM/YYYY HH:mm:ss");
+                var EDdatetime = moment().subtract(1, 'h').format("DD/MM/YYYY HH:mm:ss");
+                var Charttype = $("#btnDDlChartType").text().trim(); //$("#DDLChartType li a").text();
+                if (Charttype == "Hour") {
+                    SetChart(SDdatetime, EDdatetime, DevicesID, ParameterType);
+                }
+                else {
+                    SetChart($("#startDate").val() + " 00:00:00", $("#endDate").val() + " 00:00:00", DevicesID, ParameterType);
+                }
+            }
+        });
+
+        $("#next_date").click(function () {
+            var sd = ""
+            var ed = "";
+            var crdDate = new Date();
+            var getdate = $('#endDate').val();
+
+            if (true) {
+                var chartType = $("#btnDDlChartType").text().trim();
+                if (chartType == "Hour" || chartType == "Day") {
+                    var date = $('#startDate').datepicker('getDate');
+                    date.setTime(date.getTime() + (1000 * 60 * 60 * 24))
+                    $('#startDate').datepicker("setDate", date);
+
+                    var date = $('#endDate').datepicker('getDate');
+                    date.setTime(date.getTime() + (1000 * 60 * 60 * 24))
+                    $('#endDate').datepicker("setDate", date);
+
+                }
+                else if (chartType == "Month") {
+                    var CurrentDate = $('#startDate').datepicker('getDate');
+                    CurrentDate.setMonth(CurrentDate.getMonth() + 1);
+                    $('#startDate').datepicker("setDate", CurrentDate);
+
+                    var CurrentDate = $('#endDate').datepicker('getDate');
+                    CurrentDate.setMonth(CurrentDate.getMonth() + 1);
+                    $('#endDate').datepicker("setDate", CurrentDate);
+
+                }
+                else {
+                    var date = $('#startDate').datepicker('getDate');
+                    date.setTime(date.getTime() + (1000 * 60 * 60 * 24))
+                    $('#startDate').datepicker("setDate", date);
+
+                    var date = $('#endDate').datepicker('getDate');
+                    date.setTime(date.getTime() + (1000 * 60 * 60 * 24))
+                    $('#endDate').datepicker("setDate", date);
+                }
+            }
+        });
+
+        $("#previous_date").click(function () {
+            var sd = ""
+            var ed = "";
+            var chartType = $("#btnDDlChartType").text().trim();
+            if (chartType == "Hour" || chartType == "Day") {
+                var date = $('#startDate').datepicker('getDate');
+                date.setTime(date.getTime() - (1000 * 60 * 60 * 24))
+                $('#startDate').datepicker("setDate", date);
+
+                var date = $('#endDate').datepicker('getDate');
+                date.setTime(date.getTime() - (1000 * 60 * 60 * 24))
+                $('#endDate').datepicker("setDate", date);
+
+            }
+            else if (chartType == "Month") {
+                var CurrentDate = $('#startDate').datepicker('getDate');
+                CurrentDate.setMonth(CurrentDate.getMonth() - 1);
+                $('#startDate').datepicker("setDate", CurrentDate);
+
+                var CurrentDate = $('#endDate').datepicker('getDate');
+                CurrentDate.setMonth(CurrentDate.getMonth() - 1);
+                $('#endDate').datepicker("setDate", CurrentDate);
+            }
+            else {
+                var date = $('#startDate').datepicker('getDate');
+                date.setTime(date.getTime() - (1000 * 60 * 60 * 24))
+                $('#startDate').datepicker("setDate", date);
+
+                var date = $('#endDate').datepicker('getDate');
+                date.setTime(date.getTime() - (1000 * 60 * 60 * 24))
+                $('#endDate').datepicker("setDate", date);
+            }
+        });
+
+        $("#icnAir").click(function () {
+            $("#img1").show();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+        });
+
+        $("#icnLoc").click(function () {
+            $("#img2").show();
+            $("#img1").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+        });
+
+        $("#icnData").click(function () {
+            $("#img4").show();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+        });
+
+        $("#icnHealth").click(function () {
+            $("#img3").show();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img4").hide();
+        });
+
+        $("#imageHome").on("mouseenter", function () {
+            $("#parameter_suggestion").text(AQISuggestionText[0].Outdoor);
+            $("#SuggesTextTitle").text("Outdoor");
+        });
+
+        $("#img_mou").on("mouseenter", function () {
+            $("#parameter_suggestion").text(AQISuggestionText[0].HealthSensitive);
+            $("#SuggesTextTitle").text("Health Sensitive");
+        });
+
+        $("#img_mouse").on("mouseenter", function () {
+            $("#parameter_suggestion").text(AQISuggestionText[0].Children);
+            $("#SuggesTextTitle").text("Children");
+        });
+
+        $("#img_teddy").on("mouseenter", function () {
+            $("#parameter_suggestion").text(AQISuggestionText[0].OutdoorActivity);
+            $("#SuggesTextTitle").text("Outdoor Activity");
+        });
+
+        $("#img_bike").on("mouseenter", function () {
+            $("#parameter_suggestion").text(AQISuggestionText[0].Mask);
+            $("#SuggesTextTitle").text("Wear Mask");
+        });
+
+        $("#endDate").click(function () {
+            $("#btnDDlChartType").html("LAST DATA RECEIVED" + '<span class="caret"></span>');
+        });
+
+        $(function () {
+            var sd = new Date();
+            var ed = new Date();
+            sd.setDate(sd.getDate() - 7);
+            sd = ('0' + sd.getDate()).slice(-2) + "/" + ('0' + (sd.getMonth() + 1)).slice(-2) + "/" + sd.getFullYear();
+            ed = ('0' + ed.getDate()).slice(-2) + "/" + ('0' + (ed.getMonth() + 1)).slice(-2) + "/" + ed.getFullYear();
+            $('#startDate').val(sd);
+            $('#endDate').val(ed);
+            var date = new Date();
+            date.setDate(date.getDate());
+
+            $('#startDate').datepicker({
+                format: 'dd/mm/yyyy',
+                autoclose: true,
+                defaultDate: sd,
+                autoclose: true
+                // dateFormat: 'dd/mm/yy',
+                //maxDate: 'now',
+
+            }).on('changeDate', function (e) {
+                var decrementDay = moment(new Date(e.date));
+                $('#endDate').datepicker('setStartDate', new Date(e.date));
+
+            });
+            $("#endDate").datepicker({
+                format: 'dd/mm/yyyy',
+                autoclose: true,
+                defaultDate: ed,
+                startDate: sd,
+                autoclose: true
+                //dateFormat: 'dd/mm/yy',
+                //maxDate: 'now',
+                //minDate: date
+
+            }).on('changeDate', function (e) {
+                if (IsSourceType == 'True') {
+                    SetChartOfOpenAQ($("#startDate").val(), $("#endDate").val(), DevicesID, ParameterTypeOfOpenAQ);
+                }
+                else {
+                    SetChart($("#startDate").val() + " 00:00:00", $("#endDate").val() + " 00:00:00", DevicesID, ParameterType);
+                }
+            });
+        });
+
+        $("#Export_CSV").click(function () {
+            var fromDate = $("#startDate").val();
+            var ToDate = $("#endDate").val();
+            $.ajax({
+                url: IsSourceType == 'False' ? '/Home/ExportCSV_ParameterData' : '/Home/ExportCSV_ParameterData_of_OpenAQ',
+                data: { 'Startdate': fromDate + " 00:00:00", 'Enddate': ToDate + " 00:00:00", 'DeviceId': DevicesID },
+                contentType: 'application/json; charset=utf-8;',
+                success: function (data) {
+                    if (data != "") {
+                        window.location.href = "UploadedFiles/ExcelFiles/" + data;
+                    }
+                    else {
+                        toastr.info('No data found');
+                    }
+                },
+            });
+        });
+
+        initAutocomplete(locationObj.latitude, locationObj.longitude, locationObj.IndiaFag);
+
+        setTimeout(function () {
+            initAutocomplete(locationObj.latitude, locationObj.longitude, locationObj.IndiaFag);
+        }, 300000);
+
+    });
+
+    function ManageParameterDescrtion(Pname, p_value) {
+        $("#parm_title").text(Pname);
+        $("#parm_value").html('<b>' + p_value + '</b>&nbsp;<span style="font-size:20px;">' + SetChartSymbol(Pname) + '</span>');
+
+        if (Pname == "Temperature") {
+            $("#parm_temp").show();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_desc_Temperature").show();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "Humidity") {
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").show();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_desc_Humidity").show();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "Dew Point") {
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").show();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_desc_DewPoint").show();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "AIR Pressure" || Pname == "Air Pressure") {
+            $("#parm_AirPres").show();
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+
+            $("#parm_desc_AirPres").show();
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "Battery Voltage") {
+            $("#parm_battery_voltage").show();
+            $("#parm_AirPres").hide();
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+
+            $("#parm_desc_battery_voltage").show();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+        }
+        else if (Pname == "Solar Current" || Pname == "Charging Current") {
+            $("#parm_Solar_current").show();
+            $("#btn_more_info").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_desc_Solar_current").show();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "CO2") {
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").show();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").show();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "CO") {
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").show();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").show();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "Noise") {
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").show();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").show();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "NO2") {
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").show();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").show();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_desc_AirPres").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "CH4") {
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").show();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").show();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "NH3") {
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").show();
+            $("#parm_desc_PM10").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").show();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "PM10") {
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM10").show();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+            $("#parm_desc_PM2_5").hide();
+
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").show();
+            $("#parm_pm1").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "PM2.5") {
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM2_5").show();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+            $("#parm_desc_PM10").hide();
+
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").show();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "PM1.0") {
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM2_5").hide();
+            $("#parm_desc_PM1_0").show();
+            $("#parm_AirPres").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+            $("#parm_desc_PM10").hide();
+
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").show();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "O3") {
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM2_5").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+            $("#parm_desc_PM10").hide();
+
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+
+            $("#parm_desc_o3").show();
+            $("#parm_o3").show();
+            $("#parm_desc_so2").hide();
+            $("#parm_So2").hide();
+        }
+        else if (Pname == "SO2") {
+            $("#parm_image").attr("src", ParameterImage(Pname))
+            $("#parm_desc_DewPoint").hide();
+            $("#parm_desc_Humidity").hide();
+            $("#parm_desc_Temperature").hide();
+            $("#parm_desc_CO2").hide();
+            $("#parm_desc_CO").hide();
+            $("#parm_desc_Noise").hide();
+            $("#parm_desc_NO2").hide();
+            $("#parm_desc_CH4").hide();
+            $("#parm_desc_NH3").hide();
+            $("#parm_desc_PM2_5").hide();
+            $("#parm_desc_PM1_0").hide();
+            $("#parm_AirPres").hide();
+            $("#parm_desc_AirPres").hide();
+            $("#parm_Solar_current").hide();
+            $("#parm_desc_Solar_current").hide();
+            $("#parm_desc_battery_voltage").hide();
+            $("#parm_battery_voltage").hide();
+            $("#parm_desc_PM10").hide();
+
+            $("#parm_temp").hide();
+            $("#parm_noise").hide();
+            $("#parm_hum").hide();
+            $("#parm_dewp").hide();
+            $("#parm_co2").hide();
+            $("#parm_co").hide();
+            $("#parm_noise").hide();
+            $("#parm_no2").hide();
+            $("#parm_ch4").hide();
+            $("#parm_nh3").hide();
+            $("#parm_pm25").hide();
+            $("#parm_pm10").hide();
+            $("#parm_pm1").hide();
+
+            $("#parm_desc_o3").hide();
+            $("#parm_o3").hide();
+            $("#parm_desc_so2").show();
+            $("#parm_So2").show();
+        }
+    }
+
+    function getDeviceDataById(deviceId, DataType) {
+      $.ajax({
+    url: 'satwik1',
+		type: "GET",
+		dataType:"json",
+		success: function (response)
+
+		 {
+                if (response.length > 0) {
+                    $("#More_Information_AQI").show();
+                    var html = "";
+                    var DDLHtml = "";
+                    var parm_mor_infor_box = "";
+                    $("#ddlParm").html("");
+                    $("#div_battery").show();
+                    $("#div_location_of_cpcb").hide();
+                    $("#parm_Info_Temp_Hum").html("");
+                    $("#spnSourceName").text("Prkruti Air");
+                    $("#SpanSource").attr("href", "file:///C:/Users/91834/Downloads/New%20folder/prkruti.html");
+                    //$("#spn_battery").text(response[13].AvgValue + " v");
+                    html += '<div id="owl-demo" class="owl-carousel">';
+
+                    for (var i = 0; i < response.length; i++) {
+                        var pname = response[i].parameter_name == "PM2_5" ? "PM2.5" : response[i].parameter_name == "PM1_0" ? "PM1.0" : response[i].parameter_name == "AIR_Pressure" ? "Air Pressure" : response[i].parameter_name == "Battery_Voltage" ? "Battery Voltage" : response[i].parameter_name == "Solar_Current" ? "Charging Current" : response[i].parameter_name;
+                        var color = response[i].pollution_colour != null ? response[i].pollution_colour : "#00b050"
+                        var Styles = response[i].parameter_name == "PM2_5" ? "display:block" : response[i].parameter_name == "PM1_0" ? "display:block" : response[i].parameter_name == "PM10" ? "display:block" : response[i].parameter_name == "NH3" ? "display:block" : response[i].parameter_name == "NO2" ? "display:block" : response[i].parameter_name == "CO" ? "display:block" : "display:none";
+                        //Styles = DataType == "Current" ? "display:none" : "display:block"
+                        if (DataType == "Current" && Styles == "display:block") {
+                            Styles = "display:none";
+                        }
+
+                        html += '<div class="item" style="border-right:2px solid #fff;height:150px;" MinValue="' + response[i].MinValue + '" MaxValue="' + response[i].MaxValue + '">' +
+                                  '<a class="slider_click canvas_a">' +
+                                        '<canvas width="170" height="150" class="select-2" color="' + color + '" actualValue="' + response[i].AvgValue + '" pname="' + response[i].parameter_name + '" style="position: relative;" ></canvas>' + //position: relative;
+                                        '<div style="margin-top:-125px;">' +
+                                            '<img alt="" src="' + ParameterImage(response[i].parameter_name) + '" style="height: 30px;">' +
+                                            '<br>' +
+                                            '<span id="preview-textfield' + i + '" style="font-size:20px;font-weight:bold;">' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                            '<span id="spnParaVal' + i + '" style="font-size:20px;font-weight:bold;" >' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                            '<span>' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                            '<br>' +
+                                            '<span>' + pname + '</span>' +
+                                        '</div>' +
+
+                                              //'<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pdz text-center" style="' + Styles + '">' +
+                                              //      '<p class="mim_max_p"><span>Min:</span><span>' + response[i].MinValue + '</span></p>' +
+                                              // '</div>' +
+                                              // '<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pdz text-center"  style="' + Styles + '">' +
+                                              //      '<p class="mim_max_p"><span>Max:</span><span>' + response[i].MaxValue + '</span></p>' +
+                                              // '</div>' +
+                                    '</a>' +
+                                '</div>';
+                        DDLHtml += '<li><a minValue="' + response[i].MinValue + '" maxValue="' + response[i].MaxValue + '" class="humidity_a" data-parm="' + response[i].AvgValue + '">' + pname + '</a></li>';
+                        if (response[i].parameter_name == "Temperature") {
+                            parm_mor_infor_box += '<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 popup_div2">' +
+                                                   '<img src="images/icnTemp.png">&nbsp' +
+                                                   '<span class="popup_txt_clr"><b>' + response[i].AvgValue + '</b>' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                               '</div>';
+                            ManageParameterDescrtion(response[i].parameter_name, response[i].AvgValue)
+                            $("#btn_ddlParm").html(response[i].parameter_name == "PM2_5" ? "PM2.5" : response[i].parameter_name + '<span class="caret"></span>');
+                        }
+                        else if (response[i].parameter_name == "Humidity") {
+                            parm_mor_infor_box += '<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 popup_div3">' +
+                                                      '<img src="images/icnHumi.png">&nbsp' +
+                                                      '<span class="popup_txt_clr"><b>' + response[i].AvgValue + '</b> ' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                                  '</div>';
+                        }
+
+                    }
+
+                    html += '</div>' +
+                            '<a class="left carousel-control cust-prev hidden-xs">' +
+                               '<i class="fa fa-angle-left cust-left-icon" aria-hidden="true" style="margin-top: 70px;"></i>' +
+                           '</a>' +
+                           '<a class="right carousel-control cust-next hidden-xs">' +
+                               '<i class="fa fa-angle-right cust-right-icon" aria-hidden="true" style="margin-top: 70px;"></i>' +
+                           '</a>';
+                    $("#MinMaxDiv").hide();
+                    $("#parm_Info_Temp_Hum").html(parm_mor_infor_box);
+                    $("#parm_slider_div").html(html);
+                    $("#ddlParm").html(DDLHtml);
+                    $("#parm_infor_div").show();
+                    $("#parm_slider").show();
+                    $("#No_kit_div").hide();
+                    $("#date_time_of_parm").show();
+                    $("#More_Information_AQI").show(500);
+                    $("#progress_bar").hide();
+                    owlCarouseloptConfiguration(6);
+                }
+            }
+        });
+        owlCarousel = $("#owl-demo");
+    }
+
+    function getDeviceDataByIdByOpenAQ(deviceId, location) {
+        $.ajax({
+            type: "POST",
+            url: '/Home/DeviceAvgDataOfOpenAQ',
+            data: JSON.stringify({ deviceId: deviceId, DataType: DataType }),
+            async: false,
+            contentType: 'application/json; charset=utf-8',
+            success: function (response) {
+                if (response.length > 0) {
+                    $("#More_Information_AQI").show();
+                    var html = "";
+                    var DDLHtml = "";
+                    var parm_mor_infor_box = "";
+                    $("#ddlParm").html("");
+                    $("#parm_Info_Temp_Hum").html("");
+                    $("#div_battery").hide();
+                    $("#div_location_of_cpcb").show();
+                    $("#spn_Lcation").text(location);
+                    $("#spnSourceName").text("CPCB");
+                    $("#SpanSource").attr("href", "http://www.cpcb.gov.in/CAAQM/mapPage/frmindiamap.aspx");
+                    html += '<div id="owl-demo" class="owl-carousel">';
+                    var itmesCount = response.length;
+                    for (var i = 0; i < response.length; i++) {
+                        var pname = response[i].parameter_name == "PM2_5" ? "PM2.5" : response[i].parameter_name == "PM1_0" ? "PM1.0" : response[i].parameter_name;
+                        var color = response[i].pollution_colour != null ? response[i].pollution_colour : "#00b050"
+                        var AvgValue = response[i].parameter_name == "PM2_5" ? response[i].AvgValue.toFixed(0) : response[i].parameter_name == "PM10" ? response[i].AvgValue.toFixed(0) : response[i].AvgValue.toFixed(3);
+                        html += '<div class="item" style="border-right:2px solid #fff;height:150px;" MinValue="' + response[i].MinValue + '" MaxValue="' + response[i].MaxValue + '">' +
+                                  '<a class="slider_click canvas_a">' +
+                                        '<canvas width="170" height="150" class="select-2" color="' + color + '" actualValue="' + AvgValue + '" pname="' + response[i].parameter_name + '" style="position: relative;" ></canvas>' + //position: relative;
+                                        '<div style="margin-top:-125px;">' +
+                                            '<img alt="" src="' + ParameterImage(response[i].parameter_name) + '" style="height: 30px;">' +
+                                            '<br>' +
+                                            '<span id="preview-textfield' + i + '" style="font-size:20px;font-weight:bold;">' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                            '<span id="spnParaVal' + i + '" style="font-size:20px;font-weight:bold;" >' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                            '<span>' + SetChartSymbol(response[i].parameter_name) + '</span>' +
+                                            '<br>' +
+                                            '<span id="SPNpName">' + pname + '</span>' +
+                                        '</div>' +
+                                    '</a>' +
+                                '</div>';
+                        DDLHtml += '<li><a minValue="' + response[i].MinValue + '" maxValue="' + response[i].MaxValue + '" class="humidity_a" data-parm="' + response[i].AvgValue + '">' + pname + '</a></li>';
+                        $("#btn_ddlParm").html(response[0].parameter_name == "PM2_5" ? "PM2.5" : response[0].parameter_name + '<span class="caret"></span>');
+                        $("#parm_value").html('<b>' + response[0].AvgValue + '</b>&nbsp;<span style="font-size:20px;">' + SetChartSymbol(response[0].parameter_name) + '</span>');
+                        ParameterTypeOfOpenAQ = response[0].parameter_name;
+                        ManageParameterDescrtion(response[0].parameter_name == "PM2_5" ? "PM2.5" : response[0].parameter_name, response[0].AvgValue)
+
+                        $("#spnMinvalue").text(response[0].MinValue);
+                        $("#spnMaxvalue").text(response[0].MaxValue);
+                    }
+                    html += '</div>' +
+                            '<a class="left carousel-control cust-prev hidden-xs">' +
+                               '<i class="fa fa-angle-left cust-left-icon" aria-hidden="true" style="margin-top: 70px;"></i>' +
+                           '</a>' +
+                           '<a class="right carousel-control cust-next hidden-xs">' +
+                               '<i class="fa fa-angle-right cust-right-icon" aria-hidden="true" style="margin-top: 70px;"></i>' +
+                           '</a>';
+                    DataType == 'Current' ? $("#MinMaxDiv").hide() : $("#MinMaxDiv").show();
+
+                    $("#parm_Info_Temp_Hum").html(parm_mor_infor_box);
+                    $("#parm_slider_div").html(html);
+                    $("#ddlParm").html(DDLHtml);
+                    $("#parm_infor_div").show();
+                    $("#parm_slider").show();
+                    $("#No_kit_div").hide();
+                    $("#date_time_of_parm").show();
+                    $("#More_Information_AQI").show(500);
+                    $("#progress_bar").hide();
+                    owlCarouseloptConfiguration(itmesCount);
+                }
+            }
+        });
+        owlCarousel = $("#owl-demo");
+    }
+
+    $(document).on("click", ".cust-next", function () {
+        owlCarousel.trigger('owl.next');
+    });
+
+    $(document).on("click", ".cust-prev", function () {
+        owlCarousel.trigger('owl.prev');
+    });
+
+    function initGaugesForSlider() {
+        var target = $('.select-2');
+        var SetMaxValue = "";
+        for (var i = 0; i < target.length; i++) {
+            SetMaxValue = target[i].attributes[5].value == "CO" ? 100 : target[i].attributes[5].value == "NH3" ? 2000 : target[i].attributes[5].value == "NO2" ? 500 : target[i].attributes[5].value == "PM2_5" ? 1000 : target[i].attributes[5].value == "PM10" ? 1000 : target[i].attributes[5].value == "Noise" ? 130 : target[i].attributes[5].value == "Dew Point" ? 30 : target[i].attributes[5].value == "Temperature" ? 60 : target[i].attributes[5].value == "Humidity" ? 100 : target[i].attributes[5].value == "Solar_Current" ? 700 : target[i].attributes[5].value == "Battery_Voltage" ? 4.5 : 2000;
+            var opts = {
+                angle: 0.29, // The span of the gauge arc
+                lineWidth: 0.06, // The line thickness
+                radiusScale: 1, // Relative radius
+                pointer: {
+                    length: 0.6, // // Relative to gauge radius
+                    strokeWidth: 0.035, // The thickness
+                    color: '#000000' // Fill color
+                },
+                limitMax: false,     // If false, max value increases automatically if value > maxValue
+                limitMin: false,     // If true, the min value of the gauge will be fixed
+                colorStart: target[i].attributes[3].value != "" ? target[i].attributes[3].value : "#00b050",   // Colors
+                colorStop: target[i].attributes[3].value != "" ? target[i].attributes[3].value : "#00b050",    // just experiment with them
+                strokeColor: '#EEEEEE',  // to see which ones work best for you
+                generateGradient: true,
+                highDpiSupport: true     // High resolution support
+            };
+            var gauge = new Donut(target[i]).setOptions(opts); // create sexy gauge!
+            gauge.maxValue = SetMaxValue;
+            gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
+            gauge.animationSpeed = 40; // set animation speed (32 is default value)
+            gauge.set(target[i].attributes[4].value); // set actual value
+            gauge.setTextField(document.getElementById("preview-textfield" + i));
+
+            $("#spnParaVal" + i).text(target[i].attributes[4].value);
+
+            if (target[i].attributes[5].value == "CO2") {
+                $("#preview-textfield" + i).css("display", "block");
+            }
+            else if (target[i].attributes[5].value == "PM2_5") {
+                $("#preview-textfield" + i).css("display", "block");
+            }
+            else if (target[i].attributes[5].value == "PM10") {
+                $("#preview-textfield" + i).css("display", "block");
+            }
+            else if (target[i].attributes[5].value == "PM1_0") {
+                $("#preview-textfield" + i).css("display", "block");
+            }
+            else if (target[i].attributes[5].value == "Noise") {
+                $("#preview-textfield" + i).css("display", "block");
+            }
+
+            target[i].attributes[5].value == "CH4" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "Battery_Voltage" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "Solar_Current" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "Temperature" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "Humidity" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "Dew Point" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "AIR_Pressure" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "CO" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "NO2" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "CO" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "NO2" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+            target[i].attributes[5].value == "NH3" ? $("#spnParaVal" + i).css("display", "inline-block") : $("#preview-textfield" + i).css("display", "none");
+        }
+    }
+
+    function owlCarouseloptConfiguration(items) {
+        initGaugesForSlider();
+        owlCarousel = $("#owl-demo");
+        owlCarousel.owlCarousel({
+            autoplay: true,
+            center: true,
+            loop: true,
+            nav: true,
+            items: items, //10 items above 1000px browser width
+            //itemsDesktop: [1200, 5], //5 items between 1000px and 901px
+            //itemsDesktopSmall: [1000, 5], // 3 items betweem 900px and 601px
+            //itemsTablet: [800, 3], //2 items between 600 and 0;
+            //itemsTablet: [400, 1], //2 items between 600 and 0;
+            itemsMobile: true, // itemsMobile disabled - inherit from itemsTablet option
+            responsiveClass: true,
+        });
+    }
+
+    function initGauge(id) {
+        var targetForInfo = $('#' + id); // your canvas element
+        var opts = {
+            angle: 1, // The span of the gauge arc
+            lineWidth: 0.07, // The line thickness
+            radiusScale: 1, // Relative radius
+            pointer: {
+                length: 0.6, // // Relative to gauge radius
+                strokeWidth: 0.035, // The thickness
+                color: '#000000', // Fill color
+            },
+            limitMax: false,     // If false, max value increases automatically if value > maxValue
+            limitMin: false,     // If true, the min value of the gauge will be fixed
+            colorStart: targetForInfo[0].attributes[3].value,   // Colors
+            colorStop: targetForInfo[0].attributes[3].value,    // just experiment with them
+            strokeColor: '#dcdcdc',  // to see which ones work best for you
+            generateGradient: true,
+            highDpiSupport: true     // High resolution support
+
+        };
+
+        var gauge = new Donut(targetForInfo[0]).setOptions(opts); // create sexy gauge!
+        gauge.maxValue = 500; // set max gauge value
+        gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
+        gauge.animationSpeed = 5; // set animation speed (32 is default value)
+        gauge.set(parseFloat(targetForInfo[0].attributes[4].value)); // set actual value
+        gauge.setTextField(document.getElementById("preview-textfield" + id));
+    }
+
+    function initGaugeForAQIBox(id) {
+        var targetForInfo = $('#' + id); // your canvas element
+        var opts = {
+            angle: 1, // The span of the gauge arc
+            lineWidth: 0.07, // The line thickness
+            radiusScale: 1, // Relative radius
+            pointer: {
+                length: 0.6, // // Relative to gauge radius
+                strokeWidth: 0.035, // The thickness
+                color: '#000000' // Fill color
+            },
+            limitMax: false,     // If false, max value increases automatically if value > maxValue
+            limitMin: false,     // If true, the min value of the gauge will be fixed
+            colorStart: targetForInfo[0].attributes[3].value,   // Colors
+            colorStop: targetForInfo[0].attributes[3].value,    // just experiment with them
+            strokeColor: '#dcdcdc',  // to see which ones work best for you
+            generateGradient: true,
+            highDpiSupport: true     // High resolution support
+        };
+
+        var gauge = new Donut(targetForInfo[0]).setOptions(opts); // create sexy gauge!
+        gauge.maxValue = 500; // set max gauge value
+        gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
+        gauge.animationSpeed = 100; // set animation speed (32 is default value)
+        gauge.set(parseFloat(targetForInfo[0].attributes[4].value)); // set actual value
+        gauge.setTextField(document.getElementById("preview-textfield" + id));
+    }
+
+    function SetChart(fromDate, toDate, deviceID, chartType) {
+        chartType = chartType == "Air Pressure" ? "AIR_Pressure" : chartType == "Battery Voltage" ? "Battery_Voltage" : chartType == "Charging Current" ? "Solar_Current" : chartType == "PM2.5" ? "PM2_5" : chartType == "PM1.0" ? "PM1_0" : chartType;
+        $.ajax({
+            type: "POST",
+            url: '/Home/GetMasterDeviceScanDataForGraph',
+            data: JSON.stringify({ 'FromDate': fromDate, 'ToDate': toDate, 'DeviceID': deviceID, 'ChartType': chartType }),
+            contentType: 'application/json; charset=utf-8',
+            success: function (response) {
+                DrawChart(response, chartType);
+            },
+            error: function () {
+            }
+        });
+    }
+
+    function SetChartOfOpenAQ(fromDate, toDate, deviceID, chartType) {
+        chartType = chartType == "PM2_5" ? "pm25" : chartType == "PM10" ? "pm10" : chartType == "PM2.5" ? "pm25" : chartType;
+        $.ajax({
+            type: "POST",
+            url: '/Home/GetMasterDeviceScanDataForGraphOfOpenAQ',
+            data: JSON.stringify({ 'FromDate': fromDate + " 00:00:00", 'ToDate': toDate + " 00:00:00", 'DeviceID': deviceID, 'ChartType': chartType }),
+            contentType: 'application/json; charset=utf-8',
+            success: function (response) {
+                DrawChart(response, chartType);
+            }
+        });
+    }
+
+    $(document).on('click', '.owl-item', function () {
+        var MinValue = $(this).find('.item').attr('minvalue');
+        var MaxValue = $(this).find('.item').attr('MaxValue');
+        if (DataType == 'Current') {
+            $("#MinMaxDiv").hide();
+        }
+        else {
+            if (MinValue == "0" && MaxValue == "0") {
+                $("#MinMaxDiv").hide();
+            }
+            else {
+                $("#MinMaxDiv").show();
+                $("#spnMinvalue").text(MinValue);
+                $("#spnMaxvalue").text(MaxValue);
+            }
+        }
+        var parameter_name = $(this).find("div span").last().text();
+        var parameter_value = $(this).find("div span").first().next().text();//$(this).find("div span").next().text()
+        ManageParameterDescrtion(parameter_name, parameter_value);
+        IndividualParameretChart(parameter_name);
+    });
+
+    function IndividualParameretChart(ChatType) {
+        $("#btn_ddlParm").html(ChatType + '<span class="caret"></span>');
+        //SetChart($("#startDate").val(), $("#endDate").val(), DevicesID, ChatType);
+        if (IsSourceType == 'True') {
+            SetChartOfOpenAQ($("#startDate").val(), $("#endDate").val(), DevicesID, ChatType);
+        }
+        else {
+            var SDdatetime = moment().format("DD/MM/YYYY HH:mm:ss");
+            var EDdatetime = moment().subtract(1, 'h').format("DD/MM/YYYY HH:mm:ss");
+            var Charttype = $("#btnDDlChartType").text().trim(); //$("#DDLChartType li a").text();
+            if (Charttype == "Hour") {
+                SetChart(SDdatetime, EDdatetime, DevicesID, ChatType);
+            } else {
+                SetChart($("#startDate").val() + " 00:00:00", $("#endDate").val() + " 00:00:00", DevicesID, ChatType);
+            }
+        }
+    }
+
+    function DrawChart(data, chartType) {
+        var chartData = [];
+        var MinutechartData = [];
+        var ChartName = "";
+        if (data.length > 0) {
+            for (var i = 0; i < data.length; i++) {
+                chartData.push({
+                    date: data[i].ChartType == "Minute" ? moment(data[i].Duration, 'HH:mm a') : data[i].ChartType == "Hour" ? moment(data[i].Duration, 'HH:mm a') : data[i].ChartType == "Day" ? moment(data[i].Duration, 'YYYY/MM/DD/').format("DD MMM YYYY") : data[i].ChartType == "Month" ? data[i].Duration : data[i].Duration,
+                    value: data[i].ParameterValue
+                });
+                ChartName = data[i].ChartType;
+            }
+        }
+        else {
+            chartData = [];
+        }
+
+        chart = AmCharts.makeChart("chartdiv", {
+            "type": "serial",
+            "theme": "light",
+            "marginRight": 10,
+            "marginLeft": 60,
+            "autoMarginOffset": 20,
+            "dateFormat": "YYYY-MM-DD HH:NN:SS",
+            "valueAxes": [{
+                "id": "v1",
+                "axisAlpha": 0,
+                "position": "left",
+                "ignoreAxisWidth": true
+            }],
+            "graphs": [{
+                "id": "g1",
+                "balloon": {
+                    "drop": true,
+                    "adjustBorderColor": false,
+                    "color": "#ffffff",
+                    "type": "smoothedLine"
+                },
+                "fillAlphas": 0.2,
+                "bullet": "round",
+                "bulletBorderAlpha": 1,
+                "bulletColor": "#FFFFFF",
+                "bulletSize": 5,
+                "hideBulletsCount": 50,
+                "lineThickness": 2,
+                "title": "red line",
+                "useLineColorForBulletBorder": true,
+                "valueField": "value",
+                "balloonText": "<span style='font-size:12px;'>[[value]]</span>"
+
+            }],
+            "balloon": {
+                "borderThickness": 1,
+                "shadowAlpha": 0
+            },
+            "chartCursor": {
+                "valueLineEnabled": false,  // for line of value
+                "valueLineBalloonEnabled": true,
+                "cursorAlpha": 0,
+                "zoomable": false,
+                "valueZoomable": false,
+                "valueLineAlpha": 0.5,
+                "categoryBalloonDateFormat": ChartName == "Minute" ? "JJ:NN, DD MMMM" : ChartName == "Hour" ? "JJ:NN, DD MMMM" : ChartName == "Day" ? "DD MMMM" : ChartName == "Month" ? "MMMM YYYY" : "JJ:NN, DD MMMM",
+            },
+            "categoryAxis": {
+                "minPeriod": "mm",
+                "parseDates": ChartName == "Minute" ? true : true,  //ChartName == "Minute" ? false :
+                "gridPosition": "start",
+                "axisAlpha": 0,
+                "tickLength": 0,
+                "labelRotation": -45,
+                "gridCount": chartData.length,
+                "autoGridCount": false,
+                "dateFormats": [
+                    { period: 'fff', format: 'JJ:NN:SS' },
+                    { period: 'ss', format: 'JJ:NN:SS' },
+                    { period: 'mm', format: 'JJ:NN' },
+                    { period: 'hh', format: 'JJ:NN' },
+                    { period: 'DD', format: 'MMM DD' },
+                    { period: 'WW', format: 'MMM DD' },
+                    { period: 'MM', format: 'MMM' },
+                    { period: 'YYYY', format: 'YYYY' }
+                ],
+                "equalSpacing": false,
+            },
+            "export": {
+                "enabled": true,
+                "dateFormat": "YYYY-MM-DD HH:NN:SS",
+            },
+            "valueScrollbar": {
+                "autoGridCount": true,
+                "color": "#FFF",
+                "scrollbarHeight": 50
+            },
+            "dataProvider": chartData,
+            "categoryField": "date",
+        });
+
+        AmCharts.checkEmptyData = function (chart) {
+            if (0 == chart.dataProvider.length) {
+                var dataPoint = {
+                    dummyValue: 0
+                };
+                dataPoint[chart.categoryField] = '';
+                chart.dataProvider = [dataPoint];
+                chart.addLabel(0, '50%', 'No data found', 'center');
+                chart.chartDiv.style.opacity = 0.5;
+                chart.validateNow();
+            }
+        }
+        AmCharts.checkEmptyData(chart);
+    }
+
+    function convert(str) {
+        var date = new Date(str);
+        mnth = ("0" + (date.getMonth() + 1)).slice(-2);
+        day = ("0" + date.getDate()).slice(-2);
+        hr = ("0" + date.getHours()).slice(-2);
+        mm = ("0" + date.getMinutes()).slice(-2);
+        return [hr + ":" + mm].join("-");
+    }
+
+    function getLatestValue(guessName) {
+        if (LatestDataByCity.length > 0) {
+            for (data in LatestDataByCity) {
+                if (LatestDataByCity[data].PARAMETER_TYPE == guessName) {
+                    return LatestDataByCity[data];
+                }
+            }
+        }
+        return 0;
+    }
+
+    var MarkerClicked = false;
+    var area = "";
+
+    function initAutocomplete(lati, long, indiaFlag) {
+        var markers = [];
+        var styles = [
+           { elementType: 'geometry', stylers: [{ color: '#e6edc2' }] },   // customized for area color
+           { elementType: 'labels.text.stroke', stylers: [{ color: '#e6edc2' }] },  // customized for area color
+           { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
+           {
+               featureType: 'administrative.locality',
+               elementType: 'labels.text.fill',
+               stylers: [{ color: '#090909' }]  // for label font color customized
+           },
+           {
+               featureType: 'poi',
+               elementType: 'labels.text.fill',
+               stylers: [{ color: '#d59563' }]
+           },
+           {
+               featureType: 'poi.park',
+               elementType: 'geometry',
+               stylers: [{ color: '#f2ede7' }]   // cutomized
+           },
+           {
+               featureType: 'poi.park',
+               elementType: 'labels.text.fill',
+               stylers: [{ color: '#6b9a76' }]
+           },
+           {
+               featureType: 'transit',
+               elementType: 'geometry',
+               stylers: [{ color: '#2f3948' }]
+           },
+           {
+               featureType: 'transit.station',
+               elementType: 'labels.text.fill',
+               stylers: [{ color: '#090909' }]   // for label color font
+           },
+           {
+               featureType: 'water', /// for water color customized
+               elementType: 'geometry',
+               stylers: [{ color: '#4FC9E8' }]
+           },
+           {
+               featureType: 'water',
+               elementType: 'labels.text.fill',
+               stylers: [{ color: '#515c6d' }]   // for out of bounf color area
+           },
+           {
+               featureType: 'water',  /// for water color customized
+               elementType: 'labels.text.stroke',
+               stylers: [{ color: '#4FC9E8' }]
+           }
+        ];
+
+        var data;
+        if ($.cookie('locationObj')) {
+            data = JSON.parse($.cookie('locationObj'));
+        }
+
+
+        else {
+            zoomType = 11;
+        }
+
+        
+
+
+        // Prkruti Air Data
+        $.ajax({
+            url: '/Home/GetAllDeviceLatestData',
+	    type: "GET",
+	    data: { DataType: DataType },
+	    success: function (allDevicedata) {
+	        $.getJSON('/Home/markerdata', function (json) {
+	            $.each(json, function (key, data) {
+	                var latLng = new google.maps.LatLng(19.19406,72.96058);
+	                function filterByID(el) {
+	                    return el.DEVICE_ID == data.Device_Id;
+	                };
+	                LatestDataByCity = allDevicedata.filter(filterByID);
+	                var iconBase = "";
+	                if (getLatestValue("CO").Final_AQI >= 0 && getLatestValue("CO").Final_AQI <= 50) {
+	                    iconBase = 'images/good.png';
+	                }
+	                else if (getLatestValue("CO").Final_AQI >= 51 && getLatestValue("CO").Final_AQI <= 100) {
+	                    iconBase = 'images/Satisfactory.png';
+	                }
+	                else if (getLatestValue("CO").Final_AQI >= 101 && getLatestValue("CO").Final_AQI <= 200) {
+	                    iconBase = 'images/Moderate.png';
+	                }
+	                else if (getLatestValue("CO").Final_AQI >= 201 && getLatestValue("CO").Final_AQI <= 300) {
+	                    iconBase = 'images/Poor.png';
+	                }
+	                else if (getLatestValue("CO").Final_AQI >= 301 && getLatestValue("CO").Final_AQI <= 400) {
+	                    iconBase = 'images/VeryPoor.png';
+	                }
+	                else if (getLatestValue("CO").Final_AQI >= 401 && getLatestValue("CO").Final_AQI <= 500) {
+	                    iconBase = 'images/Severe.png';
+	                }
+	                var marker = "";
+	                marker = new google.maps.Marker({
+	                    icon: iconBase,
+	                    position: latLng,
+	                    animation: google.maps.Animation.DROP,
+	                    map: map,
+	                });
+
+	                markers.push(marker);
+	                if (marker.icon.strokeColor == '#C0C0C0') {
+	                    google.maps.event.addListener(marker, 'click', (function (marker, key) {
+	                        return function () {
+	                            MarkerClicked = false;
+	                            return false;
+	                        }
+	                    })(marker, key));
+	                }
+	                else {
+	                    google.maps.event.addListener(marker, 'click', (function (marker, key) {
+	                        return function () {
+	                            IsSourceType = 'False'
+	                            $("#progress_bar").show();
+	                            MarkerClicked = true;
+	                            deviceid = data.Device_Id;
+	                            area = data.Area_Name;
+	                            getDeviceDataById(deviceid, DataType);
+	                            DevicesID = deviceid;
+	                            DrawAQIBox(deviceid, DataType);
+	                            var sd = new Date();
+	                            var ed = new Date();
+	                            sd.setDate(sd.getDate() - 7);
+	                            sd = ('0' + sd.getDate()).slice(-2) + "/" + ('0' + (sd.getMonth() + 1)).slice(-2) + "/" + sd.getFullYear();
+	                            ed = ('0' + ed.getDate()).slice(-2) + "/" + ('0' + (ed.getMonth() + 1)).slice(-2) + "/" + ed.getFullYear();
+	                            $('#startDate').val(sd);
+	                            $('#endDate').val(ed);
+	                            SetChart($("#startDate").val() + " 00:00:00", $("#endDate").val() + " 00:00:00", DevicesID, ParameterType);
+	                            $("#btnDDlChartType").html("LAST DATA RECEIVED" + '<span class="caret"></span>');
+	                            $("#spn_battery").text(data.Area_Name);
+	                            infowindow.close();
+	                        }
+
+	                    })(marker, key));
+	                }
+	                var infowindow
+	                var statustodisplay = data.DeviceStatus == 1 ? "Online" : "Offline";
+	                var IsIndoor = data.IsIndoor == true ? "Indoor" : "Outdoor"
+	                var statusColor = data.DeviceStatus == 1 ? "#00A85A" : "#C0C0C0";
+	                var deviceIdtoDisplay = data.Device_Id;
+	                var areatoDisplay = data.Area_Name;
+	                $.unblockUI();
+	                var dateget = getLatestValue("Temperature").DEVICE_DATE;
+	                var table = '<div id="iw-container">' +
+                                 '<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 pdz">' +
+                                         '<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 locbx_device_id">' +
+                                            '<img src="images/icnLocation.png">&nbsp;' +
+                                            '<span class="locbx_p"><b>' + areatoDisplay + '</b></span>' +
+                                        '</div>' +
+                                        '<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 locbx_div1 locbx_device_time">' +
+                                            '<img src="images/icnTime.png">&nbsp;' +
+                                            '<span class="locbx_p"><b>' + moment(dateget).fromNow() + '</b></span>' +
+                                        '</div>' +
+                                         '</div>' +
+                                    '<div class="iw-content">' +
+                                       '<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 locbx_gag1 pdz">' +
+                                                '<canvas width=100 height=100 id="' + deviceIdtoDisplay + '" color="' + getLatestValue("CO").AQI_Color + '" actualValue="' + getLatestValue("CO").Final_AQI + '" style="position: relative;" class="infowindow_bg"></canvas>' +
+                                                     '<div>' +
+                                                        '<span class="pie-text infowindow_text">AQI</span>' +
+                                                        '<span class="pie-value infowindow_value"  id="preview-textfield' + deviceIdtoDisplay + '"></span>' +
+                                                        '<span class="pie-status infowindow_status">' + getLatestValue("CO").AQI_Status + '</span>' +
+                                                   '</div>' +
+                                             '</div>' +
+                                             '<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 locbx_btn1 pdz">' +
+                                                 '<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 pdz locbx_btn1">' +
+                                                     '<button type="button" class="btn btn-default locbx_btn">' + IsIndoor + '</button>' +
+                                                 '</div>' +
+                                                 '<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 locbx_btn2 pdz locbx_btn2">' +
+                                                     '<button type="button" class="btn btn-default locbx_btn sandip">' + statustodisplay + '</button>' +
+                                                 '</div>' +
+                                             '</div>' +
+                                    '</div>' +
+                                    '<div class="iw-bottom-gradient"></div>' +
+                                 '</div>';
+
+
+	                table = table.replace("deviceIdToSelect", deviceIdtoDisplay);
+	                infowindow = new google.maps.InfoWindow({
+	                    content: table,
+	                    style: "border-radius: 20px; overflow:auto;",
+	                    //maxWidth: 350
+	                });
+	                google.maps.event.addListener(marker, 'mouseover', (function (marker, key) {
+	                    return function () {
+	                        infowindow.open(map, marker);
+	                        var point = fromLatLngToPoint(marker.getPosition(), map);
+	                        //$(".gm-style-iw").parent("div").css({
+	                        //    '-webkit-box-shadow': '-2px 2px 26px 0px rgba(0,0,0,0.75)',
+	                        //    '-moz-box-shadow': '-2px 2px 26px 0px rgba(0,0,0,0.75)',
+	                        //    'box-shadow': '-2px 2px 26px 0px rgba(0,0,0,0.75)',
+	                        //    'background-color': 'rgba(0, 0, 0, 0.5);'
+	                        //});
+	                        $(".gm-style-iw").children("div").children("div").css("overflow", "hidden");
+
+
+	                        // Reference to the DIV that wraps the bottom of infowindow
+	                        var iwOuter = $('.gm-style-iw');
+
+	                        /* Since this div is in a position prior to .gm-div style-iw.
+                             * We use jQuery and create a iwBackground variable,
+                             * and took advantage of the existing reference .gm-style-iw for the previous div with .prev().
+                            */
+	                        var iwBackground = iwOuter.prev();
+
+	                        // Removes background shadow DIV
+	                        iwBackground.children(':nth-child(2)').css({ 'display': 'none' });
+
+	                        // Removes white background DIV
+	                        iwBackground.children(':nth-child(4)').css({ 'display': 'none' });
+
+	                        // Moves the infowindow 115px to the right.
+	                        // iwOuter.parent().parent().css({ left: '115px' });
+
+	                        // Moves the shadow of the arrow 76px to the left margin.
+	                        iwBackground.children(':nth-child(1)').attr('style', function (i, s) {
+	                            return s + 'border-top: 24px solid rgba(0, 0, 0, 0.3);'//+ 'left: 76px !important;'
+	                        });
+
+	                        // Moves the arrow 76px to the left margin.
+	                        iwBackground.children(':nth-child(3)').attr('style', function (i, s) {
+	                            return s + 'display: none;'
+	                        });
+
+	                        // Changes the desired tail shadow color.
+	                        iwBackground.children(':nth-child(3)').find('div').children().css({ 'box-shadow': 'rgba(72, 181, 233, 0.6) 0px 1px 6px', 'z-index': '1' });
+
+	                        // Reference to the div that groups the close button elements.
+	                        var iwCloseBtn = iwOuter.next().css("display", "none");
+
+	                        // Apply the desired effect to the close button
+	                        //    iwCloseBtn.css({ opacity: '1', right: '38px', top: '3px', border: '5px solid #48b5e9', 'min-width': '27px !important;', 'min-height': '27px !important;', 'border-radius': '13px', 'box-shadow': '0 0 5px #3990B9' });
+
+	                        //If the content of infowindow not exceed the set maximum height, then the gradient is removed.
+	                        if ($('.iw-content').height() < 140) {
+	                            $('.iw-bottom-gradient').css({ display: 'none' });
+	                        }
+
+	                        // The API automatically applies 0.7 opacity to the button after the mouseout event. This function reverses this event to the desired value.
+	                        //iwCloseBtn.mouseout(function () {
+	                        //    $(this).css({ opacity: '1' });
+	                        //});
+
+	                        setTimeout(function () { infowindow.close(); }, 3000);
+	                        initGauge(deviceIdtoDisplay)
+	                    }
+
+	                })(marker, key));
+	                google.maps.event.addListener(infowindow, 'closeclick', function () {
+	                    $("#More_Information_AQI").hide();
+	                    //currentMark.setMap(null); //removes the marker
+	                });
+	                cluster.addMarker(marker)
+	            });
+	            //   $.unblockUI();
+	        });
+
+		    // $(".gm-style-iw").parent("div").css('box-shadow', '10px 10px 5px #888');
+		}
+	});
+    // End Prkruti Air Data
+
+        function fromLatLngToPoint(latLng, map) {
+            var topRight = map.getProjection().fromLatLngToPoint(map.getBounds().getNorthEast());
+            var bottomLeft = map.getProjection().fromLatLngToPoint(map.getBounds().getSouthWest());
+            var scale = Math.pow(2, map.getZoom());
+            var worldPoint = map.getProjection().fromLatLngToPoint(latLng);
+            return new google.maps.Point((worldPoint.x - bottomLeft.x) * scale, (worldPoint.y - topRight.y) * scale);
+        }
+
+        var cluster = new MarkerClusterer(map, markers);
+        cluster.setCalculator(
+          function (markers, numStyles) {
+              function name() {
+                  for (marker in markers) {
+                      if (markers[marker].icon.strokeColor == '#00A85A') {
+                          return 1;
+                          break;
+                      }
+                  }
+                  return 1;
+              }
+              return {
+                  text: markers.length, index: name()
+              };
+          });
+
+        var input = document.getElementById('SearchforGoogleMap');
+        var searchBox = new google.maps.places.SearchBox(input);
+    //  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+    // Bias the SearchBox results towards current map's viewport.
+        map.addListener('bounds_changed', function () {
+            searchBox.setBounds(map.getBounds());
+        });
+        var markers = [];
+    // Listen for the event fired when the user selects a prediction and retrieve
+    // more details for that place.
+        searchBox.addListener('places_changed', function () {
+            var places = searchBox.getPlaces();
+            $("#More_Information_AQI").hide();
+
+            if (places.length == 0) {
+                return;
+            }
+
+            // Clear out the old markers.
+            markers.forEach(function (marker) {
+                marker.setMap(null);
+            });
+            markers = [];
+
+            // For each place, get the icon, name and location.
+            var bounds = new google.maps.LatLngBounds();
+            places.forEach(function (place) {
+                var icon = {
+                    url: place.icon,
+                    size: new google.maps.Size(71, 71),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 25)
+                };
+
+                // Create a marker for each place.
+                markers.push(new google.maps.Marker({
+                    map: map,
+                    icon: icon,
+                    title: place.name,
+                    position: place.geometry.location
+                }));
+
+                if (place.geometry.viewport) {
+                    // Only geocodes have viewport.
+                    bounds.union(place.geometry.viewport);
+                } else {
+                    bounds.extend(place.geometry.location);
+                }
+            });
+            map.fitBounds(bounds);
+        });
+    }
+
+    function SetChartSymbol(ChartType) {
+        var Symbol = '';
+        if (ChartType == 'Temperature' || ChartType == 'Dew Point')
+            Symbol = ' °C';
+        if (ChartType == 'Humidity')
+            Symbol = ' %';
+        if (ChartType == 'Light')
+            Symbol = ' LUX';
+        if (ChartType == 'UV')
+            Symbol = ' Index';
+        if (ChartType == 'CH4')
+            Symbol = ' ppb';
+        if (ChartType == 'CO2')
+            Symbol = ' PPM';
+
+        if (ChartType == 'CO')
+            Symbol = ' mg/m3';
+
+        if (ChartType == 'NO2' || ChartType == 'NH3' || ChartType == 'SO2' || ChartType == 'O3')
+            Symbol = ' µg/m3'; //' &#956;g/m<sup>3</sup>';
+        if (ChartType == 'AIR_Pressure' || ChartType == 'Air Pressure')
+            Symbol = ' mbar';
+
+        if (ChartType == 'Battery_Voltage' || ChartType == 'Solar_Voltage' || ChartType == 'Battery Voltage')
+            Symbol = ' V';
+        if (ChartType == 'Solar_Current' || ChartType == 'Solar Current' || ChartType == "Charging Current")
+            Symbol = ' mA';
+        if (ChartType == 'Noise')
+            Symbol = ' dB';
+        if (ChartType == 'Dust' || ChartType == 'PM1.0' || ChartType == 'PM10' || ChartType == 'PM2.5' || ChartType == 'PM1_0' || ChartType == 'PM10' || ChartType == 'PM2_5')
+            Symbol = ' µg/m3';
+        return Symbol;
+    }
+
+    function ParameterImage(pname) {
+        var path = '';
+        if (pname == "PM2_5" || pname == "PM2.5") {
+            path = "/images/ParameterImg/PM2.5.png";
+        }
+        else if (pname == "PM10") {
+            path = "/images/ParameterImg/PM10.png";
+        }
+        else if (pname == "PM1_0" || pname == "PM1.0") {
+            path = "/images/ParameterImg/PM1.0.png";
+        }
+        else if (pname == "AIR_Pressure" || pname == "AIR Pressure" || pname == "Air Pressure") {
+            path = "/images/ParameterImg/Air_pressure.png";
+        }
+        else if (pname == "Battery_Voltage" || pname == "Battery Voltage") {
+            path = "/images/ParameterImg/Battery_voltage.png";
+        }
+        else if (pname == "CH4") {
+            path = "/images/ParameterImg/CH4.png";
+        }
+        else if (pname == "CO") {
+            path = "/images/ParameterImg/CO.png";
+        }
+        else if (pname == "CO2") {
+            path = "/images/ParameterImg/Co2.png";
+        }
+        else if (pname == "Dew Point") {
+            path = "/images/ParameterImg/DewPoint.png";
+        }
+        else if (pname == "Humidity") {
+            path = "/images/ParameterImg/Humidity.png";
+        }
+        else if (pname == "NH3") {
+            path = "/images/ParameterImg/NH3.png";
+        }
+        else if (pname == "NO2") {
+            path = "/images/ParameterImg/No2.png";
+        }
+        else if (pname == "O3") {
+            path = "/images/ParameterImg/O3.png";
+        }
+        else if (pname == "SO2") {
+            path = "/images/ParameterImg/So2.png";
+        }
+        else if (pname == "Noise") {
+            path = "/images/ParameterImg/Noise.png";
+        }
+        else if (pname == "Solar_Current" || pname == "Solar Current" || pname == "Charging Current") {
+            path = "/images/ParameterImg/Solar_current.png";
+        }
+        else if (pname == "Temperature") {
+            path = "/images/ParameterImg/Temperature.png";
+        }
+        return path;
+    }
+
+    function GetAQISuggestionText(AQI) {
+        AQISuggestionText = "";
+        $.ajax({
+            url: "/Home/GetAQISuggestionText",
+                type: "GET",
+                data: { "aqi": AQI },
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                    AQISuggestionText = data;
+                    $("#parameter_suggestion").text(AQISuggestionText[0].Outdoor);
+                    $("#SuggesTextTitle").text("Outdoor");
+                },
+            });
+    }
+
+    function DrawAQIBox(DevicesID, DataType) {
+        var fnl_aiq_html = "";
+        $.ajax({
+            type: "POST",
+            url: '/Home/GetDeviceLatestDataByDevicesID',
+            data: JSON.stringify({ DeviceId: DevicesID, DataType: DataType }),
+            contentType: 'application/json; charset=utf-8',
+            success: function (data) {
+                if (data.length > 0) {
+                    fnl_aiq_html += '<canvas width=150 height=150 id="' + data[0].DEVICE_ID + '' + "_B" + '" color="' + data[0].AQI_Color + '" actualValue="' + data[0].Final_AQI.toFixed(0) + '" style="position: relative;" class="canvas_bg"></canvas>' +
+                            '<div>' +
+                               '<span class="pie-text">AQI</span>' +
+                               '<span class="pie-value"  id="preview-textfield' + data[0].DEVICE_ID + '' + "_B" + '"></span>' +
+                               '<span class="pie-status">' + data[0].AQI_Status + '</span>' +
+                          '</div>';
+                    $("#Finl_AQI_For_Box").html(fnl_aiq_html);
+                    initGaugeForAQIBox(deviceid + "_B");
+                    var prm_polli = data[0].Prominent_Pollutent == "PM2_5" ? "PM2.5" : data[0].Prominent_Pollutent;
+                    $("#Prom_Pollut").text(prm_polli);
+                    $("#LstUpdateTime").text(data[0].DEVICE_DATE);
+                    GetAQISuggestionText(data[0].Final_AQI);
+
+                }
+            }
+        });
+    }
+
+    function DrawAQIBoxOfOpenAQ(DevicesID) {
+        var fnl_aiq_html = "";
+        $.ajax({
+            type: "POST",
+            url: '/Home/GetDeviceLatestDataByDevicesIDOfOpenAQ',
+            data: JSON.stringify({ DeviceId: DevicesID, DataType: DataType }),
+            contentType: 'application/json; charset=utf-8',
+            success: function (data) {
+                if (data.length > 0) {
+                    fnl_aiq_html += '<canvas width=150 height=150 id="' + data[0].DEVICE_ID + '' + "_B" + '" color="' + data[0].AQI_Color + '" actualValue="' + data[0].Final_AQI.toFixed(0) + '" style="position: relative;" class="canvas_bg"></canvas>' +
+                            '<div>' +
+                               '<span class="pie-text">AQI</span>' +
+                               '<span class="pie-value"  id="preview-textfield' + data[0].DEVICE_ID + '' + "_B" + '"></span>' +
+                               '<span class="pie-status">' + data[0].AQI_Status + '</span>' +
+                          '</div>';
+                    $("#Finl_AQI_For_Box").html(fnl_aiq_html);
+                    initGaugeForAQIBox(deviceid + "_B");
+                    var prm_polli = data[0].Prominent_Pollutent == "PM2_5" ? "PM2.5" : data[0].Prominent_Pollutent;
+                    $("#Prom_Pollut").text(prm_polli);
+                    $("#LstUpdateTime").text(data[0].DEVICE_DATE);
+                    GetAQISuggestionText(data[0].Final_AQI);
+
+                }
+            }
+        });
+    }
+
+    $(function () {
+        $("#draggable").draggable();
+    });
+</script>
+
+
+<script src="markerclusterer.js"></script>
+<script src = "https://maps.googleapis.com/maps/api/js"></script>
+
+
+<script>
+    var app = angular.module('UserApp', ['angularjs-gauge', 'ngAnimate', 'ngTouch', 'toastr']).controller('ctrl', function ($scope, $http, $window) {
+        angular.module('UserApp', ['angularjs-gauge', 'ngGrid', 'ngAnimate', 'ngTouch', 'toastr']).config(configApp);
+        configApp.$inject = ['ngGaugeProvider'];
+
+        $scope.areaName = {
+            AQI: "10",
+            AQIColor: "#EEE",
+            ParameterType: "CO2",
+            ParameterSymbol: "PPM"
+        };
+
+        function configApp(ngGaugeProvider) {
+            ngGaugeProvider.setOptions({
+                size: 250,
+                cap: 'round',
+                thick: 30,
+                foregroundColor: "#ff8645",
+                backgroundColor: "#e4e4e4"
+            });
+        }
+    });
+</script>
+
+
+
+    <div class="bg_ft" id="ftr_backgroud_img">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 div_ft_pd">
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12">
+                            <img src="images/logo.png" class="animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><br>
+                            <br>
+                            <h4 class="ft_h4 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Headquarters</b></h4>
+                            <h5 class="ft_p animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s">Road NO: 13,<br>
+                                Banjara Hills<br>
+                                Hyderabad - 500045
+                            </h5>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12">
+                            <h4 class="ft_h4 ft_h4_mg animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Site Map</b></h4>
+                            <h5 class="ft_h5 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="/" class="ft_a">Home</a></h5>
+                            <h5 class="ft_h5 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="/products" class="ft_a">Product</a></h5>
+                            <h5 class="ft_h5 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="/Casestudy" class="ft_a">Case Studies</a></h5>
+                            <h5 class="ft_h5 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="/Blog" class="ft_a">Blogs</a></h5>
+                            <h5 class="ft_h5 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><a href="/about-us" class="ft_a">About Us</a></h5>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12">
+                            <h4 class="ft_h4 ft_h4_mg animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><b>Contact Us</b></h4>
+                            <h5 class="ft_h5 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><span class="ft_a">Give us a call</span></h5>
+                            <h5 class="ft_h5 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"><span class="ft_a">M : +91 7202036363</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 div_ft_icn_">
+
+                        <a href="https://www.facebook.com/prkruti/" target="_blank">
+                            <img src="images/icnFacebook.png" class="icn_Facebook animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+
+                        <a href="https://twitter.com/prkruti_air" target="_blank">
+                            <img src="images/icnTwitter.png" class="icn_Twitter animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+
+                        <a href="https://plus.google.com/u/0/104477628560923941362" target="_blank">
+                            <img src="images/icnGoogleplus.png" class="icn_Googleplus animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+
+                        <a href="https://www.youtube.com/channel/UCBtnnCN9nh_ZWebTxHR5EmQ?view_as=subscriber" target="_blank">
+                            <img src="images/icnYoutube.png" class="icn_Youtube animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+
+                        <a href="https://www.instagram.com/prkruti_air/" target="_blank">
+                            <img src="images/icnInstagram.png" class="icn_Linkedin animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid lst_ft">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                <p class="ft_a1 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s">Copyright ©Demo Application.  DEVELOPED BY OPTIMIZED SOLUTIONS PVT LTD.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- model -->
+    <div class="container">
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content mdl_bg">
+                    <div class="modal-header mdl_header">
+                        <form id="dlglogin">
+                            <div class="frm_img">
+                                <img src="images/logo.png">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="txt_username form-control input_bx login-required" onkeypress="EntterKey(event)" placeholder="Email Id" id="txt_username1">
+                            </div>
+                            <div class="form-group">
+                                <input type="Password" class="form-control input_bx login-required txt_password" onkeypress="EntterKey(event)" placeholder="Password" id="txt_password1">
+                            </div>
+                            <div class="checkbox">
+                                <label class="lbl">
+                                    <input id="chk1" type="checkbox" />Remember me</label>
+                            </div>
+                            <button type="button" class="btn btn-default btn-block btn_login" onclick="Login()">Login</button>
+
+                            <div>
+                                <button type="button" class="btn_link" onclick="ManageDialog('dlg_lst_pass')">lost Password?</button>
+                                <button type="button" class="btn_link" onclick="ManageDialog('dlg_registred')">Register</button>
+                            </div>
+                        </form>
+
+                        <form id="dlg_lst_pass" style="display: none">
+                            <div class="frm_img">
+                                <img src="images/logo.png">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input_bx lst-required" placeholder="E-Mail" name="E-Mail" id="lst_email">
+                            </div>
+                            <button type="button" class="btn btn-default btn-block btn_login" onclick="LostPassword()">Send</button>
+                            <div>
+                                <button type="button" class="btn_link" onclick="ManageDialog('dlglogin')">Log In</button>
+                                <button type="button" class="btn_link" onclick="ManageDialog('dlg_registred')">Register</button>
+                            </div>
+                        </form>
+
+                        <form id="dlg_registred" style="display: none">
+                            <div class="frm_img">
+                                <img src="images/logo.png">
+                            </div>
+                            <div class="form-group">
+                                <label class="radio-inline">
+                                    <input type="radio" name="isVisitor" id="inlineRadio1" value="visitor" style="width: initial">
+                                    Visitor
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="isVisitor" id="inlineRadio2" value="user" style="width: initial" checked="checked">
+                                    User
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input_bx regi-required" placeholder="Username" id="regi_username">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input_bx regi-required" placeholder="E-Mail" id="regi_email">
+                            </div>
+                            <div class="form-group">
+                                <input type="Password" class="form-control input_bx regi-required" placeholder="Password" id="regi_password">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="Password" class="form-control input_bx regi-required" placeholder="Confirm Password" id="regi_conf_password">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control input_bx regi-required" placeholder="Mobile Number" id="regi_mobile">
+                            </div>
+
+                            <div class="checkbox">
+                                <label class="lbl">
+                                    <input id="chk2" type="checkbox" />Remember me</label>
+                            </div>
+                            <button type="button" class="btn btn-default btn-block btn_login" onclick="NewUser()">Register</button>
+                            <div>
+                                <button type="button" class="btn_link" onclick="ManageDialog('dlglogin')">Log In</button>
+                                <button type="button" class="btn_link" onclick="ManageDialog('dlg_lst_pass')">lost Password?</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    .show-error-red-border {
+        background-color: #fff0f0 !important;
+        box-shadow: 0 0 0 1px #FF5555 !important;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+                return false;
+            }
+        });
+
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        $("#lblCartCount").text("");
+        GetCartItem();
+        $('.animate').scrolla({
+            mobile: false,
+            once: false
+        });
+        var baseUrl = window.location.pathname
+        if (baseUrl == "/Products") {
+            $("#ftr_backgroud_img").removeClass('bg_ft').addClass("bg_ft");
+        }
+        else if (baseUrl == "/Casestudy") {
+            $("#ftr_backgroud_img").removeClass('bg_ft').addClass("casestudy_bg_ft");
+        }
+        else if (baseUrl == "/Aboutus") {
+            $("#ftr_backgroud_img").removeClass('bg_ft').addClass("bg_ft");
+        }
+        else if (baseUrl == "/Blog") {
+            $("#ftr_backgroud_img").removeClass('bg_ft').addClass("blog_ft");
+        }
+        $("#dlg_registred").hide();
+        $("#dlg_lst_pass").hide();
+        $("#dlglogin").show();
+        $("#btn_login").click(function () {
+            $("#dlg_registred").hide();
+            $("#dlg_lst_pass").hide();
+            $("#dlglogin").show();
+        });
+
+        $("#LogOut").click(function () {
+            Logout();
+        });
+    });
+
+    function EntterKey(event) {
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            Login();
+        }
+    }
+
+    function ManageDialog(element) {
+        if (element == "dlg_lst_pass") {
+            $("#dlg_lst_pass").show()
+            $("#dlglogin").hide()
+            $("#dlg_registred").hide()
+
+        }
+        else if (element == "dlg_registred") {
+            $("#dlg_registred").show();
+            $("#dlg_lst_pass").hide();
+            $("#dlglogin").hide();
+
+        }
+        else if (element == "dlglogin") {
+            $("#dlg_registred").hide();
+            $("#dlg_lst_pass").hide();
+            $("#dlglogin").show();
+        }
+        else {
+            $("#dlg_registred").hide();
+            $("#dlg_lst_pass").hide();
+            $("#dlglogin").show();
+        }
+    }
+
+    function isRequired(objClass) {
+        var isValid = true;
+        $(objClass).each(function () {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).addClass('show-error-red-border');
+                $('#loading-indicator1').hide();
+            }
+            else {
+                $(this).removeClass('show-error-red-border');
+            }
+        });
+        return isValid;
+
+    }
+
+    function checkEmail(email) {
+        var isvalid = true;
+        var reg = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        if (email != "") {
+            if (reg.test(email)) {
+                isvalid = true;
+            }
+            else {
+                isvalid = false;
+                toastr.error('Enter Valid Email Address');
+            }
+        }
+        else {
+            isvalid = false;
+        }
+        return isvalid;
+    }
+
+    function LostPassword() {
+        var Email = $("#lst_email").val();
+        var isValid = isRequired('.lst-required');
+        var isvalidEmail = checkEmail(Email);
+        if (isValid) {
+            if (isvalidEmail) {
+                $.ajax({
+                    url: '/Adashbord/RetrivePassword',
+                    type: 'POST',
+                    data: JSON.stringify({ email: Email }),
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+
+                        if (data) {
+
+                            if (data == "InvalidEmail") {
+                                toastr.error('Email Id not Registered');
+                                $("#lst_email").val("");
+                            } else {
+                                $("#lst_email").val("");
+                                $("#myModal").modal('hide');
+                                toastr.info('Password sent your email id !!');
+                            }
+                        }
+
+                    }
+                });
+            }
+        }
+        else {
+            toastr.error("Please Enter Email Address");
+        }
+    }
+
+    function NewUser() {
+
+        var visitor = 0;
+        var user = 0;
+        $('#inlineRadio1').is(':checked') ? visitor = 1 : visitor = 0;
+        $('#inlineRadio2').is(':checked') ? user = 1 : user = 0;
+        var isValid = isRequired('.regi-required');
+
+        data = {
+            "name": $("#regi_username").val(),
+            "email": $("#regi_email").val(),
+            "password": $("#regi_password").val(),
+            "mobile": $("#regi_mobile").val(),
+            'isVisitor': visitor,
+            'isuser': user
+        };
+
+        if (isValid) {
+            if ($("#regi_password").val() == $("#regi_conf_password").val()) {
+                $.ajax({
+                    url: '/Adashbord/RegisterUser',
+                    type: 'POST',
+                    data: JSON.stringify(data),
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        if (data) {
+                            if (data == "Registered Successfully") {
+                                toastr.success("Registered Successfully .");
+                                $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+                            }
+                            else if (data == "Email Address already exists") {
+                                toastr.info("Your email id already exists");
+                            }
+                            else {
+                                $('#text-register-errormsg').css('color', 'red');
+                            }
+                        }
+                    }
+                });
+            }
+            else {
+                toastr.error("Confirm password Doesn't Match.")
+                $("#regi_password").val("");
+                $("#regi_conf_password").val("");
+            }
+        }
+        else {
+            return false;
+        }
+
+    }
+
+    function Login() {
+        try {
+            $("#user_loader").show();
+            var isvalid = true;
+            isValid = isRequired('.login-required');
+            var email = $("#txt_username1").val();
+            var passwprd = $("#txt_password1").val();
+            var isRemember = $("#chk1").is(':checked')
+            var isvalidEmail = checkEmail(email);
+
+            if (isvalidEmail == false) {
+                $("#user_loader").hide();
+                $(".login").css({ opacity: 1 });
+            }
+            if (isValid) {
+                $.ajax({
+                    url: '/Adashbord/Login',
+                    type: 'POST',
+                    data: JSON.stringify({ "Username": email, "Password": passwprd, "chkRememberMe": isRemember }),
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (result) {
+                        if (result.status == "1" && result.isadmin == "1") {
+                            $("#user_loader").hide();
+                            window.location.href = "/Admin/Adashbord";
+                        }
+                        else if (result.status == "1" && result.isadmin == "0") {
+                            window.location.href = window.location.href; // "/";
+                        }
+                        else {
+                            $("#user_loader").hide();
+                            toastr.error("your user name or password to wrong.");
+                            $(".login").css({ opacity: 1 });
+                            $("#text-login-msg").css('display', 'none');
+                            $("#text-login-errormsg").css('display', 'block');
+                        }
+
+                    }
+                });
+        }
+    } catch (e) {
+        $("#user_loader").hide();
+    }
+}
+function GetCartItem() {
+    $.ajax({
+        url: '/Topic/GetCartItembyUser',
+        type: "GET",
+        data: "",
+        contenttype: 'application/json; charset=utf-8;',
+        success: function (data) {
+            $("#lblCartCount").text(data);
+            $("#cartItem").attr("href", "/CheckOut");
+            $("#lblCartCount").text(data);
+        },
+    });
+}
+function Logout() {
+    $.ajax({
+        url: "/Adashbord/Logout",
+        success: function (data) {
+            window.location.href = "/";
+        }
+    });
+    }
+</script>
+<script>
+$(document).ready(function(){
+
+    $.getJSON("satwik1", function(result){
+
+    		 var myJSON = JSON.stringify(result);
+
+    		 var obj = JSON.parse(myJSON);
+
+
+    		 var value= obj.Data[0].CurrentValue;
+    		 var value1= obj.Data[1].CurrentValue;
+    		 var value2= obj.Data[2].CurrentValue;
+    		 var value3= obj.Data[3].CurrentValue;
+    		 var value4= obj.Data[4].CurrentValue;
+    		 var value5= obj.Data[5].CurrentValue;
+    		 var value6= obj.Data[6].CurrentValue;
+    		 var value7= obj.Data[7].CurrentValue;
+    		 var value8= obj.Data[8].CurrentValue;
+    		 var value9= obj.Data[9].CurrentValue;
+
+    		 var type= obj.Data[0].POLLUTION_COLOUR;
+    		 var type1= obj.Data[1].POLLUTION_COLOUR;
+    		 var type2= obj.Data[2].POLLUTION_COLOUR;
+    		 var type3= obj.Data[3].POLLUTION_COLOUR;
+    		 var type4= obj.Data[4].POLLUTION_COLOUR;
+    		 var type5= obj.Data[5].POLLUTION_COLOUR;
+    		 var type6= obj.Data[6].POLLUTION_COLOUR;
+    		 var type7= obj.Data[7].POLLUTION_COLOUR;
+    		 var type8= obj.Data[8].POLLUTION_COLOUR;
+    		 var type9= obj.Data[9].POLLUTION_COLOUR;
+
+
+
+    		 $('#type').val(type);
+    		 $('#type1').val(type1);
+    		 $('#type2').val(type2);
+    		 $('#type3').val(type3);
+    		 $('#type4').val(type4);
+    		 $('#type5').val(type5);
+    		 $('#type6').val(type6);
+    		 $('#type7').val(type7);
+    		 $('#type8').val(type8);
+    		 $('#type9').val(type9);
+
+    		 $('#value').val(value);
+    		 $('#value1').val(value1);
+    		 $('#value2').val(value2);
+    		 $('#value3').val(value3);
+    		 $('#value4').val(value4);
+    		 $('#value5').val(value5);
+    		 $('#value6').val(value6);
+    		 $('#value7').val(value7);
+    		 $('#value8').val(value8);
+    		 $('#value9').val(value9);
+
+
+
+
+
+
+   
+  
+var thane = new google.maps.LatLng(19.19406,72.96058);
+var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: {lat: 19.19406, lng: 72.96058},
+    panControl: true,
+    zoomControl: true,
+    zoomControlOptions: {
+        position: google.maps.ControlPosition.RIGHT_TOP
+    },
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    gestureHandling: 'greedy',
+    scrollwheel: false,
+
+});
+var ThaneRTO = new google.maps.Circle({
+    center:thane,
+    radius:200,
+
+    strokeColor:"#B40404",
+    strokeOpacity:1,
+    strokeWeight:2,
+
+    fillColor:"#B40404",
+    fillOpacity:1
+ });
+
+ ThaneRTO.setMap(map);
+ var marker = new google.maps.Marker({
+     position:thane,
+     title:'click for more details'
+  });
+
+ var meadows = new google.maps.LatLng(19.22825,72.96967);
+ var Hiranandini = new google.maps.Circle({
+	    center:meadows,
+	    radius:200,
+
+	    strokeColor:"#7BFF33",
+	    strokeOpacity:1,
+	    strokeWeight:2,
+
+	    fillColor:"#7BFF33",
+	    fillOpacity:1
+	 });
+
+	 Hiranandini.setMap(map);
+	 var marker1 = new google.maps.Marker({
+	     position:meadows,
+	     title:'click for more details'
+	  });
+	 marker1.setMap(map);
+	  marker1.addListener('click', showInfo1);
+	 var infoWindow = new google.maps.InfoWindow({
+		 maxWidth: 1200,
+	 });
+	 
+	
+	 
+	 var ram = new google.maps.LatLng(19.20981,72.96246);
+	 var ramGarden = new google.maps.Circle({
+		    center:ram,
+		    radius:200,
+
+		    strokeColor:"#FFF533",
+		    strokeOpacity:1,
+		    strokeWeight:2,
+
+		    fillColor:"#FFF533",
+		    fillOpacity:1
+		 });
+
+		 ramGarden.setMap(map);
+		 var marker2 = new google.maps.Marker({
+		     position:ram,
+		     title:'click for more details'
+		  });
+		 marker2.setMap(map);
+		  marker2.addListener('click', showInfo2);
+		 var infoWindow = new google.maps.InfoWindow({
+			 maxWidth: 1200,
+		 });
+		 
+		 
+	 
+  marker.setMap(map);
+  marker.addListener('click', showInfo);
+ var infoWindow = new google.maps.InfoWindow({
+	 maxWidth: 1200,
+ });
+  function showInfo(event) {
+	  $("#btnshow").click(function(){
+		  	$("#htmltable").show();
+		  }
+		  );
+  var contentString ='<h2>AIR QUALITY.</h2><br>'+
+  '<button id="btnshow">ForMoreInfo</button><br>'+
+ 							 '<P>latlng:'+thane+'</p>'+
+							  '<tr><br>'+
+							   '<td>'+type+':	</td>'+
+							    '<td>'+value+'</td><br>'+
+							    
+							  '</tr><br>'+
+							  '<tr><br>'+
+							   '<td>'+type1+':	</td>'+
+							    '<td>'+value1+'</td><br>'+
+							   
+							  '</tr><br>'+
+							  '<tr><br>'+
+							   '<td>'+type2+':	</td>'+
+							    '<td>'+value2+'</td><br>'+
+							    
+							  '</tr><br>'+
+							  '<tr><br>'+
+							   '<td>'+type3+':	</td>'+
+							    '<td>'+value3+'</td><br>'+
+							   
+							  '</tr><br>'+
+							  '<tr><br>'+
+							   '<td>'+type4+':	</td>'+
+							    '<td>'+value4+'</td><br>'+
+							    
+							  '</tr><br>'+
+							  '<tr><br>'+
+							   '<td>'+type5+':	</td>'+
+							    '<td>'+value5+'</td><br>'+
+							    
+							  '</tr><br>'+
+							  '<tr><br>'+
+							   '<td>'+type6+':	</td>'+
+							    '<td>'+value6+'</td><br>'+
+							    
+							  '</tr><br>'
+						
+  
+
+	infoWindow.setContent(contentString);
+  infoWindow.setPosition(thane);
+  infoWindow.open(map);
+  }
+  
+  
+  
+  function showInfo1(event) {
+	  $("#btnshow1").click(function(){
+		  	$("#htmltable").show();
+		  }
+		  );
+	  var contentString1 ='<h2>AIR QUALITY.</h2><br>'+
+	  '<button id="btnshow1">ForMoreInfo</button><br>'+
+								  '<P>latlng:'+meadows+'</p>'+
+								  '<tr><br>'+
+								   '<td>'+type+':	</td>'+
+								    '<td>'+value+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type1+':	</td>'+
+								    '<td>'+value1+'</td><br>'+
+								   
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type2+':	</td>'+
+								    '<td>'+value2+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type3+':	</td>'+
+								    '<td>'+value3+'</td><br>'+
+								   
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type4+':	</td>'+
+								    '<td>'+value4+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type5+':	</td>'+
+								    '<td>'+value5+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type6+':	</td>'+
+								    '<td>'+value6+'</td><br>'+
+								    
+								  '</tr><br>'
+							
+	  
+
+		infoWindow.setContent(contentString1);
+	  infoWindow.setPosition(meadows);
+	  infoWindow.open(map);
+	  }
+  
+  
+  function showInfo2(event) {
+	  $("#btnshow2").click(function(){
+		  	$("#htmltable").show();
+		  }
+		  );
+	  var contentString2 ='<h2>AIR QUALITY.</h2><br>'+
+	  '<button id="btnshow2">ForMoreInfo</button><br>'+
+	 							 '<P>latlng:'+ram+'</p>'+
+								  '<tr><br>'+
+								   '<td>'+type+':	</td>'+
+								    '<td>'+value+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type1+':	</td>'+
+								    '<td>'+value1+'</td><br>'+
+								   
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type2+':	</td>'+
+								    '<td>'+value2+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type3+':	</td>'+
+								    '<td>'+value3+'</td><br>'+
+								   
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type4+':	</td>'+
+								    '<td>'+value4+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type5+':	</td>'+
+								    '<td>'+value5+'</td><br>'+
+								    
+								  '</tr><br>'+
+								  '<tr><br>'+
+								   '<td>'+type6+':	</td>'+
+								    '<td>'+value6+'</td><br>'+
+								    
+								  '</tr><br>'
+							
+	  
+
+		infoWindow.setContent(contentString2);
+	  infoWindow.setPosition(ram);
+	  infoWindow.open(map);
+	  }
+  
+  
+  
+  
+  $("#htmltable").hide();
+  $("#btnshow").click(function(){
+  	$("#htmltable").toggle();
+  }
+  );
+  
+    });
+});
+
+
+
+  
+</script>
+
